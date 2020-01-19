@@ -15,13 +15,13 @@
 
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
       <b-carousel-slide class="slide" caption="Welcome to Toxic Angel Wolfy Creations!"
-      img-src="https://d.facdn.net/art/toxicangelwolfy/1550148498/1550148498.toxicangelwolfy_v-day_play_time.png">
+      img-src="../assets/slide1.png">
         <p>
           Freelance artist and crafter.
         </p>
       </b-carousel-slide>
       <b-carousel-slide class="slide" caption="Reference Sheets"
-                        img-src="https://d.facdn.net/art/toxicangelwolfy/1570001131/1570001131.toxicangelwolfy_amber_ref_sfw.png"></b-carousel-slide>
+                        img-src="../assets/slide2.png"></b-carousel-slide>
     </b-carousel>
   </div>
 </template>
@@ -31,8 +31,6 @@
 
 export default {
   name: "home",
-
-
 
 };
 </script>
