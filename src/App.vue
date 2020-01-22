@@ -6,9 +6,28 @@
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
-          <b-nav-item to="#">Prices</b-nav-item>
+          <b-nav-item to="/#">Prices</b-nav-item>
           <b-nav-item to="/tos">Terms of Service</b-nav-item>
         </b-navbar-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-form>
+        <b-nav-item href="https://twitter.com/wolfy_creations">
+          <font-awesome-icon size="lg" :icon="[ 'fab','twitter-square']"/>
+        </b-nav-item>
+          <b-nav-item href="https://www.instagram.com/toxicangelwolfy/">
+            <font-awesome-icon size="lg" :icon="['fab','instagram']" />
+          </b-nav-item>
+        <b-nav-item href="#">
+          <font-awesome-icon size="lg" :icon="['fab', 'deviantart']" />
+        </b-nav-item>
+        <b-nav-item href="#">
+          <font-awesome-icon size="lg" :icon="['fab', 'trello']" />
+        </b-nav-item>
+        <b-nav-item href="#">
+          <font-awesome-icon icon="paw" size="lg" />
+        </b-nav-item>
+        </b-nav-form>
+      </b-navbar-nav>
        </b-collapse>
     </b-navbar>
     <router-view />
