@@ -1,6 +1,6 @@
 <template>
     <div class="prices">
-        <h1>This page is currently under construction</h1>
+        <h1>Prices - This page is currently under construction</h1>
         <p>Check this page out soon!</p>
     </div>
 </template>

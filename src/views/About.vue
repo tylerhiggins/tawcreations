@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This page is currently under construction!</h1>
+    <h1>About - This page is currently under construction!</h1>
     <p>Check this page out soon!</p>
   </div>
 </template>
