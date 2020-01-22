@@ -14,7 +14,7 @@
     <router-view />
     <footer id="footer">
       <div class="footer-copyright text-center py-3">Copyright &copy;2020 Toxic Angel Wolfy Creations<br>
-        Website Created by Tyler Higgins<br>
+        Created and maintained by Tyler Higgins<br>
       </div>
     </footer>
   </div>
