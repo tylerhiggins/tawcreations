@@ -17,13 +17,13 @@
           <b-nav-item href="https://www.instagram.com/toxicangelwolfy/">
             <font-awesome-icon size="lg" :icon="['fab','instagram']" />
           </b-nav-item>
-        <b-nav-item href="#">
+        <b-nav-item href="https://www.deviantart.com/toxicangelwolfy">
           <font-awesome-icon size="lg" :icon="['fab', 'deviantart']" />
         </b-nav-item>
-        <b-nav-item href="#">
+        <b-nav-item href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">
           <font-awesome-icon size="lg" :icon="['fab', 'trello']" />
         </b-nav-item>
-        <b-nav-item href="#">
+        <b-nav-item href="https://www.furaffinity.net/user/toxicangelwolfy">
           <font-awesome-icon icon="paw" size="lg" />
         </b-nav-item>
         </b-nav-form>
