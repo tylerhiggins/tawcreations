@@ -28,7 +28,7 @@ const routes = [
     meta: {title: 'TAWCreations - TOS'}
   },
   {
-    path: "prices",
+    path: "/prices",
     name: "prices",
     component:() =>
         import("../views/Prices.vue"),
