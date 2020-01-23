@@ -20,8 +20,23 @@
           Freelance artist and crafter.
         </p>
       </b-carousel-slide>
-      <b-carousel-slide class="slide" caption="Reference Sheets"
-                        img-src="../assets/slide2.png"></b-carousel-slide>
+      <b-carousel-slide style="background-color: black" class="slide" caption="Pardon our Dust"
+      img-src="../assets/slide3.png">
+        <span class="pr-sm-2">
+        <b-button href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</b-button>
+        </span>
+        <span class="pr-sm-2">
+        <b-button href="https://www.deviantart.com/toxicangelwolfy">DeviantArt</b-button>
+        </span>
+        <span class="pr-sm-2">
+          <b-button href="https://twitter.com/wolfy_creations">Twitter</b-button>
+        </span>
+        <span>
+          <b-button href="https://www.instagram.com/toxicangelwolfy/">Instagram</b-button>
+        </span>
+        <p>We are under construction. If you would
+        like to get more information, please click on one of my social media or art pages!</p>
+      </b-carousel-slide>
     </b-carousel>
   </div>
 </template>

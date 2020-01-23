@@ -7,11 +7,11 @@ import router from "./router";
 import store from "./store";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitterSquare, faInstagram,
-  faDeviantart, faTrello} from '@fortawesome/free-brands-svg-icons';
+  faDeviantart, faTrello, faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faPaw} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
-library.add(faTwitterSquare,faInstagram,faDeviantart,faTrello, faPaw);
+library.add(faTwitterSquare,faInstagram,faDeviantart,faTrello, faPaw, faGithub);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
