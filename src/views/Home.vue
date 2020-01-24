@@ -6,8 +6,8 @@
             :interval="4000"
             controls
             background="#ababab"
-            img-width="1195"
-            img-height="436"
+            img-width="1280"
+            img-height="800"
             style="text-shadow: 1px 1px 2px #333;"
             @sliding-start="onSlideStart"
             @sliding-end="onSlideEnd"
@@ -22,6 +22,8 @@
       </b-carousel-slide>
       <b-carousel-slide style="background-color: black" class="slide" caption="Pardon our Dust"
       img-src="../assets/slide3.png">
+        <p>We are under construction. If you would
+        like to get more information, please click on one of my social media or art pages!</p>
         <span class="pr-sm-2">
         <b-button href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</b-button>
         </span>
@@ -34,8 +36,6 @@
         <span>
           <b-button href="https://www.instagram.com/toxicangelwolfy/">Instagram</b-button>
         </span>
-        <p>We are under construction. If you would
-        like to get more information, please click on one of my social media or art pages!</p>
       </b-carousel-slide>
     </b-carousel>
   </div>
@@ -51,5 +51,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+  #carousel {
+    margin-top: 50px;
+  }
 </style>
