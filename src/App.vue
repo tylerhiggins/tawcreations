@@ -42,7 +42,7 @@
       <div class="footer-copyright text-center py-3">Copyright &copy;2020 Toxic Angel Wolfy Creations<br>
         Created and maintained by Tyler Higgins<br>
         <div class="text-center pt-lg-2">
-          <a class="btn" style="color: white" href="https://github.com/tylerhiggins/tawcreations2">
+          <a class="btn" href="https://github.com/tylerhiggins/tawcreations2">
         <font-awesome-icon size="2x" :icon="['fab','github']" />
           </a>
         </div>
@@ -70,5 +70,9 @@
 }
 #footer {
   font-size: 12px;
+  }
+  a, a:link, a:visited, a:hover, a:active {
+    color: white;
+
   }
 </style>
