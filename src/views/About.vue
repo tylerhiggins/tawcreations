@@ -14,14 +14,14 @@
           </b-th>
           <b-th id="paragraph">
           <p>
-            Hello my name is Toxic Angel Wolfy! I am a freelance artist and crafter
-            specializing in artwork and crafts for the furry fandom! I currently live in
-            Oregon, U.S. and am engaged to a wonderful husky who is named Lucky! My hobbies
-            and interests include exploring new places, drawing, and video gaming! My goal
-            in life is to create a better world through art and helping others. I would
-            like to thank you for your interest in my work, and hope that you enjoy my arts
-            and crafts!<br> Feel free to contact me through any of my social media pages, or
-            email me at <a href="mailto: toxicangelwolfy@gmail.com">toxicangelwolfy@gmail.com</a>
+            Hello! My name is Toxic Angel Wolfy! I am a freelance artist and crafter
+            specializing in artwork and crafts for the <a href="https://furscience.com/whats-a-furry/">
+            furry fandom!</a> I currently live in Oregon, U.S. and am engaged to a wonderful
+            husky who is named Lucky! My hobbies and interests include exploring new places,
+            drawing, and video gaming! My goal in life is to create a better world through art and
+            helping others. I would like to thank you for your interest in my work, and hope
+            that you enjoy my arts and crafts!<br> Feel free to contact me through any of my
+            social media pages, or email me at <a href="mailto: toxicangelwolfy@gmail.com">toxicangelwolfy@gmail.com</a>
             for any inquiries about my work!
           </p>
           </b-th>
