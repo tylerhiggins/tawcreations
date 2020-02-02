@@ -8,10 +8,11 @@ import store from "./store";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitterSquare, faInstagram,
   faDeviantart, faTrello, faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faPaw} from '@fortawesome/free-solid-svg-icons';
+import {faPaw, faCoffee} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
-library.add(faTwitterSquare,faInstagram,faDeviantart,faTrello, faPaw, faGithub);
+library.add(faTwitterSquare,faInstagram,faDeviantart,faTrello, faPaw, faGithub,
+    faCoffee);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

@@ -5,7 +5,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
-          <b-nav-item to="/about" disabled>About Me</b-nav-item>
+          <b-nav-item to="/about">About Me</b-nav-item>
           <b-nav-item to="/prices" disabled>Prices</b-nav-item>
           <b-nav-item to="/tos">Terms of Service</b-nav-item>
           <b-nav-item-dropdown text="Galleries">
@@ -30,9 +30,12 @@
         <b-nav-item style="padding-right: 10px" href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">
           <font-awesome-icon size="lg" :icon="['fab', 'trello']" />
         </b-nav-item>
-        <b-nav-item href="https://www.furaffinity.net/user/toxicangelwolfy">
+        <b-nav-item style="padding-right: 10px" href="https://www.furaffinity.net/user/toxicangelwolfy">
           <font-awesome-icon icon="paw" size="lg" />
         </b-nav-item>
+          <b-nav-item href="https://ko-fi.com/toxicangelwolfycreations">
+            <font-awesome-icon icon="coffee" size="lg"/>
+          </b-nav-item>
         </b-nav-form>
       </b-navbar-nav>
        </b-collapse>
@@ -73,6 +76,6 @@
   }
   a, a:link, a:visited, a:hover, a:active {
     color: white;
-
   }
+
 </style>

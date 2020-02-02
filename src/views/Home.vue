@@ -19,6 +19,12 @@
         <p>
           Freelance artist and crafter.
         </p>
+        <p>
+          <a class="btn" href="https://ko-fi.com/toxicangelwolfycreations">
+            Buy me a coffee!
+            <font-awesome-icon size="lg" icon="coffee"/>
+          </a>
+        </p>
       </b-carousel-slide>
       <b-carousel-slide style="background-color: black" class="slide" caption="Pardon our Dust"
       img-src="../assets/slide3.png">
