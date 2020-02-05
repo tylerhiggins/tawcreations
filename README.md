@@ -3,8 +3,8 @@
 # Author - Tyler Higgins
 
 # Frameworks
-Bootstrap 4
-Vue.js
+Bootstrap 4  
+Vue.js  
 Font-Awesome
 
 # Hosted at:
