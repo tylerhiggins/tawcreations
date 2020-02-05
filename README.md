@@ -1,24 +1,13 @@
 # tawcreations2
 
-## Project setup
-```
-npm install
-```
+# Author - Tyler Higgins
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Frameworks
+Bootstrap 4
+Vue.js
+Font-Awesome
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Hosted at:
+https://tawcreations.onrender.com
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
