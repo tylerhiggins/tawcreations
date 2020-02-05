@@ -9,8 +9,8 @@
         <b-tr><br></b-tr>
         <b-tr>
           <b-th>
-          <b-img id="avatar" src="https://d.facdn.net/art/toxicangelwolfy/1573542971/1573542971.toxicangelwolfy_toxic_icon_mine.png"
-                  alt="Character pic goes here."></b-img>
+          <b-img id="avatar" :src="require('@/assets/about/avatar.jpg')"
+                 alt="Toxic and Lucky Real Life"></b-img>
           </b-th>
           <b-th id="paragraph">
           <p>
@@ -47,5 +47,7 @@ export default {
   }
   #avatar {
     max-width: 100%;
+    margin-right: 200px;
+    color: white;
   }
 </style>

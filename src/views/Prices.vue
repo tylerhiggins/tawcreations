@@ -1,7 +1,8 @@
 <template>
     <div class="prices">
-        <h1>Prices - This page is currently under construction</h1>
-        <p>Check this page out soon!</p>
+        <h1>Prices!</h1>
+        <h2>Digital Artwork</h2>
+        <b-img src=""></b-img>
     </div>
 </template>
 
