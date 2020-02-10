@@ -12,7 +12,7 @@
     @sliding-start="onSlideStart"
     @sliding-end="onSlideEnd"
     >
-      <b-carousel-slide :img-src="require('@/assets/home/slide1.png')" caption="Welcome to Toxic Angel Wolfy Creations!"
+      <b-carousel-slide :img-src="require('@/assets/home/slide1.png')" caption="Toxic Angel Wolfy Creations!"
       text="Freelance artist and crafter.">
         <span class="pr-sm-2">
         <b-button href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</b-button>
@@ -36,9 +36,9 @@
                         caption="Mystery Egg Adopts!" text="Price reduced!">
         <b-button href="https://www.furaffinity.net/view/34595548/">Details</b-button>
       </b-carousel-slide>
-      <b-carousel-slide :img-src="require('@/assets/home/slide3_soon.jpg')"
-      caption="Prices page coming soon!" text="Click the button below for my commission prices.">
-        <b-button href="https://www.furaffinity.net/commissions/toxicangelwolfy/">Commission Prices</b-button>
+      <b-carousel-slide :img-src="require('@/assets/home/adopt_slide_2.jpg')"
+      caption="Open Adopt!">
+        <b-button href="https://www.furaffinity.net/view/34891135/">Details</b-button>
       </b-carousel-slide>
     </b-carousel>
   </div>

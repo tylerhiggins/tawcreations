@@ -6,7 +6,10 @@
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/about">About Me</b-nav-item>
-          <b-nav-item to="/prices" disabled>Prices</b-nav-item>
+          <b-nav-item-dropdown text="Prices">
+            <b-dropdown-item style="color: black" to="/digitalprices">Digital</b-dropdown-item>
+            <b-dropdown-item disabled to="/traditionalprices">Traditional (Coming Soon!)</b-dropdown-item>
+          </b-nav-item-dropdown>
           <b-nav-item to="/tos">Terms of Service</b-nav-item>
           <b-nav-item-dropdown text="Galleries">
             <b-dropdown-item to="/#" disabled>SFW Gallery (Coming soon!)</b-dropdown-item>

@@ -28,11 +28,17 @@ const routes = [
     meta: {title: 'TAWCreations - TOS'}
   },
   {
-    path: "/prices",
-    name: "prices",
+    path: "/digitalprices",
+    name: "digitalprices",
     component:() =>
-        import("../views/Prices.vue"),
+        import("../views/DigitalPrices.vue"),
     meta: {title: 'TAWCreations - Prices'}
+  },
+  {
+    path: "/traditionalprices",
+    name: "traditionalprices",
+    component: () => import("../views/TraditionalPrices.vue"),
+    meta: {title: 'TAWCreations - Traditional Prices'}
   }
 ];
 
