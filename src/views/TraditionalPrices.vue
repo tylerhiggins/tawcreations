@@ -1,21 +1,19 @@
 <template>
     <div class="prices">
         <h1>Prices</h1>
-        <h3>Digital Artwork Prices:</h3>
+        <h3>Traditional Artwork Prices:</h3>
         <div class="ex_section">
-        <b-img class="example" :src="require('@/assets/prices/ref_example.png')"></b-img>
-        <p><span>Reference Sheet</span> - Starting at $30 </p>
-        </div>
-        <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/fullb_example.jpg')"></b-img>
-            <p><span>Fullbody</span> - Starting at $25 </p>
-        </div>
-        <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/halfb_example.png')"></b-img>
+            <b-img class="example" :src="require('@/assets/tradprices/half_ex.jpg')"></b-img>
             <p><span>Halfbody</span> - Starting at $20</p>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/couples_ex.jpg')"></b-img>
+            <b-img class="example" :src="require('@/assets/tradprices/head_ex.jpg')"></b-img>
+            <p><span>Headshot</span> - Starting at $15</p>
+        </div>
+        <div class="ex_section">
+            <p><span>Fullbody</span> - Starting at $25 </p>
+        </div>
+        <div class="ex_section">
             <p><span>Couples</span> - Starting at $30</p>
         </div>
         <div class="ex_section">
@@ -24,34 +22,22 @@
                 NSFW Examples</b-button>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/gore_ex.png')"></b-img>
-            <p><span>Gore</span> - Starting at $20</p>
+            <p><span>Gore</span> - Starting at $15</p>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/feral_ex.png')"></b-img>
             <p><span>Feral</span> - Starting at $15</p>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/realistic_ex.png')"></b-img>
-            <p><span>Realistic</span> - Starting at $20</p>
+            <p><span>Realistic</span> - Starting at $15</p>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/chibi_ex.png')"></b-img>
             <p><span>Chibi</span> - Starting at $10</p>
         </div>
         <div class="ex_section">
             <p><span>Lineart</span> - Starting at $10</p>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/icon_ex.jpg')"></b-img>
-            <p><span>Icons</span> - Starting at $10</p>
-        </div>
-        <div class="ex_section">
-            <p><span>Animated Icon</span> - Starting at $15</p>
-        </div>
-        <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/prices/sticker_ex.png')"></b-img>
-            <p><span>Stickers</span> - Small: $1 Medium: $2 Large $5</p>
+            <p><span>Stickers</span> - Small: $0.25 Medium: $0.50 Large $1</p>
         </div>
     </div>
 </template>
@@ -78,7 +64,7 @@
         margin-bottom: 10px;
     }
     .example {
-        max-width: 50%;
+        max-width: 25%;
     }
     .ex_section {
         margin-top: 25px;

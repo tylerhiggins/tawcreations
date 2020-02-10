@@ -15,6 +15,10 @@
             <p><span>Halfbody</span> - Starting at $20</p>
         </div>
         <div class="ex_section">
+            <b-img class="example" :src="require('@/assets/prices/head_ex.png')"></b-img>
+            <p><span>Headshot</span> - Starting at $15</p>
+        </div>
+        <div class="ex_section">
             <b-img class="example" :src="require('@/assets/prices/couples_ex.jpg')"></b-img>
             <p><span>Couples</span> - Starting at $30</p>
         </div>
