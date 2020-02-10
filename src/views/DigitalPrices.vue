@@ -95,7 +95,4 @@
     p {
         margin-top: 10px;
     }
-    body {
-        background-color: black;
-    }
 </style>
