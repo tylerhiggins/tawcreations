@@ -6,7 +6,7 @@
     :interval="4000"
     controls
     img-width="1000"
-    img-height="500"
+    img-height="400"
     background="#ababab"
     style="text-shadow: 1px 1px 2px #333;"
     @sliding-start="onSlideStart"
