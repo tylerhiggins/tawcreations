@@ -45,11 +45,27 @@
     </b-navbar>
     <router-view />
     <footer id="footer">
-      <div class="footer-copyright text-center py-3">Copyright &copy;2020 Toxic Angel Wolfy Creations<br>
+      <div class="mobileLinks kofiLink text-center py-3">
+        <a href="https://ko-fi.com/toxicangelwolfycreations">
+          Buy me a coffee!
+          <font-awesome-icon size="lg" icon="coffee"/>
+        </a>
+      </div>
+      <div class="mobileLinks footerInfo text-center py-1">
+        <a href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
+        &ensp;&ensp;&ensp;&ensp;<a href="https://www.deviantart.com/toxicangelwolfy">Deviantart</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
+        &ensp;&ensp;&ensp;&ensp;<a href="https://twitter.com/wolfy_creations">Twitter</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
+        &ensp;&ensp;&ensp;&ensp;<a href="https://www.instagram.com/toxicangelwolfy/">Instagram</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
+        &ensp;&ensp;&ensp;&ensp;<a href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">Trello</a>
+      </div>
+      <div class="footer-copyright text-center py-2">Copyright &copy;2020 Toxic Angel Wolfy Creations<br>
         Created and maintained by <a href="https://furaffinity.net/user/luckyhusky">luckyhusky</a><br>
         <div class="text-center pt-lg-2">
           <a class="btn" href="https://github.com/tylerhiggins/tawcreations2">
         <font-awesome-icon size="2x" :icon="['fab','github']" />
+          </a>
+          <a class="btn" href="https://bootstrap-vue.js.org/">
+            <font-awesome-icon size="2x" :icon="['fab','bootstrap']" />
           </a>
         </div>
       </div>
@@ -87,4 +103,19 @@
 body {
   background-color: black;
 }
+  .footerInfo {
+    font-size: 16px;
+  }
+  .splitter {
+    font-weight: bold;
+  }
+  .kofiLink {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  @media only screen and (min-width: 550px){
+    .mobileLinks {
+      display: none;
+    }
+  }
 </style>

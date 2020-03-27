@@ -14,25 +14,32 @@
      >
        <b-carousel-slide :img-src="require('@/assets/home/slide1.png')" caption="Toxic Angel Wolfy Creations!"
                          text="Freelance artist and crafter.">
-        <span class="pr-sm-2">
+        <span class="pr-sm-2 desktopb">
         <b-button href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</b-button>
         </span>
-         <span class="pr-sm-2">
+         <span class="pr-sm-2 desktopb">
         <b-button href="https://www.deviantart.com/toxicangelwolfy">DeviantArt</b-button>
         </span>
-         <span class="pr-sm-2">
+         <span class="pr-sm-2 desktopb">
           <b-button href="https://twitter.com/wolfy_creations">Twitter</b-button>
         </span>
-         <span>
+         <span class=" pr-sm-2 desktopb">
           <b-button href="https://www.instagram.com/toxicangelwolfy/">Instagram</b-button>
         </span>
+           <span class="desktopb">
+          <b-button href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">Trello</b-button>
+        </span>
          <br><br>
-         <a class="btn" href="https://ko-fi.com/toxicangelwolfycreations">
+         <a class="btn desktopb" href="https://ko-fi.com/toxicangelwolfycreations">
            Buy me a coffee!
            <font-awesome-icon size="lg" icon="coffee"/>
          </a>
        </b-carousel-slide>
+         <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="Coming soon: Galleries!"
+         text="Click the button to see my Furaffinity gallery!">
+        <b-button href="https://www.furaffinity.net/gallery/toxicangelwolfy/">FA Gallery</b-button>
 
+         </b-carousel-slide>
      </b-carousel>
   </div>
 </template>
@@ -50,7 +57,9 @@ export default {
   #footer {
     padding-bottom: 100px;
   }
-  #carousel-1 {
-    margin-top: 50px;
-  }
+    @media only screen and (max-width: 550px){
+        .desktopb {
+            display: none
+        }
+    }
 </style>
