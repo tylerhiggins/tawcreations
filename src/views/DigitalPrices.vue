@@ -1,5 +1,14 @@
 <template>
     <div class="prices">
+        <b-alert
+                :show="dismissCountDown"
+                fade
+                variant="info"
+                @dismissed="dismissCountDown=0"
+                @dismiss-count-down="countDownChanged"
+        >
+            <p>Please read my <a class="alert-link" href="tos">Terms of Service</a> before commissioning me!</p>
+        </b-alert>
         <h1>Prices</h1>
         <h3>Digital Artwork Prices:</h3>
         <div class="ex_section">
@@ -62,9 +71,26 @@
 
 <script>
     export default{
-        name: "digitalprices"
-
+        name: "digitalprices",
+        data() {
+            return {
+                dismissSecs: 10,
+                dismissCountdown: 0,
+            }
+        },
+        created: function(){
+            this.showAlert()
+        },
+        methods: {
+            countDownChanged(dismissCountDown) {
+                this.dismissCountDown = dismissCountDown
+            },
+            showAlert() {
+                this.dismissCountDown = this.dismissSecs
+            },
+        }
     }
+
 </script>
 
 <style scoped lang="scss">
