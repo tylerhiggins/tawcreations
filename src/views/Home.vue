@@ -35,6 +35,10 @@
            <font-awesome-icon size="lg" icon="coffee"/>
          </a>
        </b-carousel-slide>
+         <b-carousel-slide :img-src="require('@/assets/home/ychslide.jpg')" caption="Sergal or Shark icon YCH!"
+         text="Only $10!">
+             <b-button href="https://www.furaffinity.net/view/35707066/">More Info!</b-button>
+         </b-carousel-slide>
          <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="Coming soon: Galleries!"
          text="Click the button to see my Furaffinity gallery!">
         <b-button href="https://www.furaffinity.net/gallery/toxicangelwolfy/">FA Gallery</b-button>
