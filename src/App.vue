@@ -43,6 +43,24 @@
       </b-navbar-nav>
        </b-collapse>
     </b-navbar>
+    <div class="status">
+      <b-table-simple id="statustable" bordered small dark>
+        <colgroup><col></colgroup>
+        <colgroup><col><col><col></colgroup>
+        <b-thead>
+          <b-tr>
+            <b-th colspan="3" id="cstatustitle">Current Commission Status:</b-th>
+          </b-tr>
+        </b-thead>
+        <b-tbody>
+          <b-tr>
+            <b-th variant="success"><span id="artstatus">Art: Open!</span></b-th>
+            <b-th variant="success"><span id="craftstatus">Crafts: Open!</span></b-th>
+            <b-th variant="danger"><span id="fsstatus">Fursuits: Closed</span></b-th>
+          </b-tr>
+        </b-tbody>
+      </b-table-simple>
+    </div>
     <router-view />
     <footer id="footer">
       <div class="mobileLinks kofiLink text-center py-3">
@@ -117,5 +135,17 @@ body {
     .mobileLinks {
       display: none;
     }
+  }
+  .status {
+    text-align: center;
+    background-color: black;
+  }
+  #cstatustitle {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #statustable {
+    background-color: black;
   }
 </style>
