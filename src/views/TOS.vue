@@ -7,8 +7,7 @@
             <li>Commissions are sold as-is when completed. <span>NO REFUNDS</span>!</li><br>
             <li>If you have already given me final approval on completed artwork and wish to make a change,
             I will do so for a fee. I <span>WILL NOT</span> make changes for free after the work is complete.</li><br>
-            <li>I <span>WILL NOT</span> draw anything that involves scat, vomit, or depiction nudity or sexual
-            activity of a minor (a.k.a. cub/babyfur)</li><br>
+            <li>I <span>WILL NOT</span> draw anything that involves scat, vomit, or any sexual depiction of a minor (a.k.a. cub/babyfur)</li><br>
             <li>I also <span>REFUSE</span> to draw anything that discriminates against someones race, sexual orientation,
             and/or gender identity.</li><br>
             <li>For commissions that involve gore: If there is someone else's character(s) involved I need their
@@ -20,10 +19,8 @@
                 pay full shipping costs. If art gets lost in the mail, you can get your art re-shipped for half of the
             commission cost.</li><br>
             <li>Any commission $100+ USD will be given a free badge of one of their characters!</li><br>
-            <li>If you live within two hours from Portland, Oregon and would like your commission to be hand-delivered,
-            I can deliver it for you for a small fee! *Gas is not cheap!</li><br>
-            <li>The only acceptable forms of payment for online commissions are PayPal and DeviantArt Points!
-            At-convention acceptable forms of payment is PayPal, Debit/Credit card, cash in the form of USD, and DeviantArt
+            <li>The only acceptable forms of payment for online commissions are PayPal and DeviantArt Points!</li><br>
+            <li>At-convention acceptable forms of payment is PayPal, Debit/Credit card, cash in the form of USD, and DeviantArt
             Points!</li><br>
             <li>Please do not spam or harass me with messages about your artwork! If you do, I will refund you and refuse
             any future commissions/requests/trades from you!</li><br>
