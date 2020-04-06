@@ -7,7 +7,7 @@
             <li>Commissions are sold as-is when completed. <span>NO REFUNDS</span>!</li><br>
             <li>If you have already given me final approval on completed artwork and wish to make a change,
             I will do so for a fee. I <span>WILL NOT</span> make changes for free after the work is complete.</li><br>
-            <li>I <span>WILL NOT</span> draw anything that involves scat, vomit, or any sexual depiction of a minor (a.k.a. cub/babyfur)</li><br>
+            <li>I <span>WILL NOT</span> draw anything that involves scat, vomit, or any sexual depiction of a minor.</li><br>
             <li>I also <span>REFUSE</span> to draw anything that discriminates against someones race, sexual orientation,
             and/or gender identity.</li><br>
             <li>For commissions that involve gore: If there is someone else's character(s) involved I need their
