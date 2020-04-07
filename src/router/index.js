@@ -39,6 +39,12 @@ const routes = [
     name: "traditionalprices",
     component: () => import("../views/TraditionalPrices.vue"),
     meta: {title: 'TAWCreations - Traditional Prices'}
+  },
+  {
+    path: "/sfwgallery",
+    name: "sfwgallery",
+    component: () => import("../views/SafeGallery"),
+    meta: {title: 'TAWCreations - SFW Gallery'}
   }
 ];
 

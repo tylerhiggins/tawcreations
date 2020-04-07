@@ -11,6 +11,7 @@ import { faTwitterSquare, faInstagram,
 import {faPaw, faCoffee} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
+
 library.add(faTwitterSquare,faInstagram,faDeviantart,faTrello, faPaw, faGithub,
     faCoffee,faBootstrap);
 

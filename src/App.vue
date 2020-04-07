@@ -12,7 +12,7 @@
           </b-nav-item-dropdown>
           <b-nav-item to="/tos">Terms of Service</b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
-            <b-dropdown-item to="/#" disabled>SFW Gallery (Coming soon!)</b-dropdown-item>
+            <b-dropdown-item to="/sfwgallery" disabled>SFW Gallery (Coming soon!)</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>18+ NSFW Gallery (Coming Soon!)</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/#" disabled>Crafts! (Coming Soon!)</b-dropdown-item>
@@ -34,7 +34,7 @@
           <font-awesome-icon size="lg" :icon="['fab', 'trello']" />
         </b-nav-item>
         <b-nav-item style="padding-right: 10px" href="https://www.furaffinity.net/user/toxicangelwolfy">
-          <font-awesome-icon icon="paw" size="lg" />
+          <font-awesome-icon icon="paw" size="lg"/>
         </b-nav-item>
           <b-nav-item href="https://ko-fi.com/toxicangelwolfycreations">
             <font-awesome-icon icon="coffee" size="lg"/>
