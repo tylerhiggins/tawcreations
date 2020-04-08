@@ -51,6 +51,10 @@ const routes = [
     name: "adopts",
     component: () => import("../views/Adopts.vue"),
     meta: {title: 'TAWCreations - Adopts'}
+  },
+  {
+    path: "*",
+    component: () => import("../views/PageNotFound.vue")
   }
 ];
 
