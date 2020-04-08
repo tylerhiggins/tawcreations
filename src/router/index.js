@@ -43,8 +43,14 @@ const routes = [
   {
     path: "/sfwgallery",
     name: "sfwgallery",
-    component: () => import("../views/SafeGallery"),
+    component: () => import("../views/SafeGallery.vue"),
     meta: {title: 'TAWCreations - SFW Gallery'}
+  },
+  {
+    path: "/adopts",
+    name: "adopts",
+    component: () => import("../views/Adopts.vue"),
+    meta: {title: 'TAWCreations - Adopts'}
   }
 ];
 
