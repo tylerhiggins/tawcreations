@@ -16,12 +16,12 @@
                         <b-th colspan="6">Icons</b-th>
                     </b-tr>
                     <b-tr>
+                        <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon15.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon1.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon2.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon3.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon4.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon5.jpg')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon6.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon7.png')" fluid></b-img></b-th>
@@ -32,8 +32,9 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon14.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
+                        <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon6.png')" fluid></b-img></b-th>
                         <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/icons/icon11.jpg')" fluid></b-img></b-th>
-                        <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/icons/icon10.jpg')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/icons/icon10.jpg')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr id="refsheets">
                         <b-th colspan="6">Reference Sheets</b-th>
