@@ -1,5 +1,14 @@
 <template>
     <div class="adopts">
+        <b-alert
+                :show="dismissCountDown"
+                fade
+                variant="info"
+                @dismissed="dismissCountDown=0"
+                @dismiss-count-down="countDownChanged"
+        >
+            <p>Please read my <a class="alert-link" href="tos">Terms of Service</a> before buying an adopt.</p>
+        </b-alert>
         <h1>Current Adopts!</h1>
         <b-table-simple class="adopt-table" borderless>
             <colgroup><col><col></colgroup>
@@ -33,6 +42,23 @@
 <script>
     export default {
         name: "adopts",
+        data() {
+            return {
+                dismissSecs: 10,
+                dismissCountdown: 0,
+            }
+        },
+        created: function(){
+            this.showAlert()
+        },
+        methods: {
+            countDownChanged(dismissCountDown) {
+                this.dismissCountDown = dismissCountDown
+            },
+            showAlert() {
+                this.dismissCountDown = this.dismissSecs
+            },
+        }
     }
 </script>
 
