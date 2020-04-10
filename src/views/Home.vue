@@ -40,7 +40,7 @@
                            text="Check it out!">
              <b-button to="/sfwgallery">SFW Gallery</b-button>
          </b-carousel-slide>
-         <b-carousel-slide :img-src="require('@/assets/home/slide3.png')" caption="New Adopts page!"
+         <b-carousel-slide :img-src="require('@/assets/home/slide4.jpg')" caption="New Adopts page!"
          text="Buy an OC!">
              <b-button to="/adopts">Adopts Page</b-button>
          </b-carousel-slide>

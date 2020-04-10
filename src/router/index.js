@@ -54,7 +54,8 @@ const routes = [
   },
   {
     path: "*",
-    component: () => import("../views/PageNotFound.vue")
+    component: () => import("../views/PageNotFound.vue"),
+    meta: {title: 'TAWCreations - 404'}
   }
 ];
 
