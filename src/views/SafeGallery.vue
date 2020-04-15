@@ -24,7 +24,7 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon2.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon3.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon4.jpg')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon5.jpg')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/icons/icon5.jpg')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon7.png')" fluid></b-img></b-th>
@@ -32,12 +32,12 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon9.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon12.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon13.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon14.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/icons/icon14.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/icons/icon6.png')" fluid></b-img></b-th>
-                        <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/icons/icon11.jpg')" fluid></b-img></b-th>
-                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/icons/icon10.jpg')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/icons/icon6.png')" fluid></b-img></b-th>
+                        <b-th colspan="3"><b-img class="med-img" :src="require('@/assets/sfwgallery/icons/icon11.jpg')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img class="med-img" :src="require('@/assets/sfwgallery/icons/icon10.jpg')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr id="refsheets">
                         <b-th colspan="6">Reference Sheets</b-th>
@@ -56,7 +56,7 @@
                     </b-tr>
                     <b-tr>
                         <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/refs/ref9.png')" fluid></b-img></b-th>
-                        <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/refs/ref8.jpg')" fluid></b-img></b-th>
+                        <b-th colspan="3"><b-img class="med-img" :src="require('@/assets/sfwgallery/refs/ref8.jpg')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/refs/ref4.png')" fluid></b-img></b-th>
@@ -67,15 +67,15 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb1.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb4.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb5.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb6.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/fullbody/fb6.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb16.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/fullbody/fb16.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb8.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb9.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb10.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb11.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb15.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/fullbody/fb15.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/fullbody/fb7.png')" fluid></b-img></b-th>
@@ -84,7 +84,7 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/fullbody/fb14.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
-                        <b-th colspan="6"><b-img :src="require('@/assets/sfwgallery/fullbody/fb2.jpg')" fluid></b-img></b-th>
+                        <b-th colspan="6"><b-img class="med-img" :src="require('@/assets/sfwgallery/fullbody/fb2.jpg')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr><b-th colspan="6" id="halfbody">Half Body</b-th></b-tr>
                     <b-tr>
@@ -93,14 +93,14 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb3.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb4.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb5.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb6.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/halfbody/hb6.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/halfbody/hb8.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb9.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb10.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb11.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/halfbody/hb12.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/halfbody/hb12.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-tr>
@@ -114,19 +114,19 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs4.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs8.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs15.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs5.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/headshots/hs5.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
-                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/headshots/hs14.png')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img class="med-img" :src="require('@/assets/sfwgallery/headshots/hs14.png')" fluid></b-img></b-th>
                         <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/headshots/hs13.png')" fluid></b-img></b-th>
-                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/headshots/hs10.png')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img class="med-img" :src="require('@/assets/sfwgallery/headshots/hs10.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs1.png')" fluid></b-img></b-th>
                         <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/headshots/hs9.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs7.png')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs11.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs12.png')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/headshots/hs12.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs6.jpg')" fluid></b-img></b-th>
@@ -134,40 +134,40 @@
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs18.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs19.jpg')" fluid></b-img></b-th>
                         <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs20.jpg')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/headshots/hs16.jpg')" fluid></b-img></b-th>
+                        <b-th><b-img class="med-img" :src="require('@/assets/sfwgallery/headshots/hs16.jpg')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr><b-th colspan="6" id="feral">Feral</b-th></b-tr>
                     <b-tr>
-                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/feral/f2.png')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img class="med-img" :src="require('@/assets/sfwgallery/feral/f2.png')" fluid></b-img></b-th>
                         <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/feral/f4.png')" fluid></b-img></b-th>
-                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/feral/f6.png')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img class="med-img" :src="require('@/assets/sfwgallery/feral/f6.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
                         <b-th><b-img :src="require('@/assets/sfwgallery/feral/f7.png')" fluid></b-img></b-th>
-                        <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/feral/f3.png')" fluid></b-img></b-th>
+                        <b-th colspan="2"><b-img class="med-img" :src="require('@/assets/sfwgallery/feral/f3.png')" fluid></b-img></b-th>
                         <b-th colspan="2"><b-img :src="require('@/assets/sfwgallery/feral/f1.png')" fluid></b-img></b-th>
-                        <b-th><b-img :src="require('@/assets/sfwgallery/feral/f5.png')" fluid></b-img></b-th>
+                        <b-th><b-img  :src="require('@/assets/sfwgallery/feral/f5.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr><b-th colspan="6" id="chibi">Chibi</b-th></b-tr>
                     <b-tr>
-                        <b-th colspan="6"><b-th><b-img :src="require('@/assets/sfwgallery/chibi/c1.png')" fluid></b-img></b-th></b-th>
+                        <b-th colspan="6"><b-th><b-img class="large-img" :src="require('@/assets/sfwgallery/chibi/c1.png')" fluid></b-img></b-th></b-th>
                     </b-tr>
                     <b-tr>
-                        <b-th colspan="6"><b-th><b-img :src="require('@/assets/sfwgallery/chibi/c2.png')" fluid></b-img></b-th></b-th>
+                        <b-th colspan="6"><b-th><b-img class="large-img" :src="require('@/assets/sfwgallery/chibi/c2.png')" fluid></b-img></b-th></b-th>
                     </b-tr>
                     <b-tr><b-th colspan="6" id="multi">Multiple Characters</b-th></b-tr>
                     <b-tr>
-                        <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/multiple/mc1.jpg')" fluid></b-img></b-th>
-                        <b-th colspan="3"><b-img :src="require('@/assets/sfwgallery/multiple/mc2.png')" fluid></b-img></b-th>
+                        <b-th colspan="3"><b-img class="med-img" :src="require('@/assets/sfwgallery/multiple/mc1.jpg')" fluid></b-img></b-th>
+                        <b-th colspan="3"><b-img class="med-img" :src="require('@/assets/sfwgallery/multiple/mc2.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr>
-                        <b-th colspan="6"><b-img :src="require('@/assets/home/slide1.png')" fluid></b-img></b-th>
+                        <b-th colspan="6"><b-img class="large-img" :src="require('@/assets/home/slide1.png')" fluid></b-img></b-th>
                     </b-tr>
                     <b-tr><b-th colspan="6" id="real">Realistic</b-th></b-tr>
-                    <b-tr><b-th colspan="6"><b-img :src="require('@/assets/sfwgallery/realistic/r1.png')" fluid></b-img></b-th></b-tr>
+                    <b-tr><b-th colspan="6"><b-img class="large-img" :src="require('@/assets/sfwgallery/realistic/r1.png')" fluid></b-img></b-th></b-tr>
                     <b-tr><b-th colspan="6" id="sticker">Stickers</b-th></b-tr>
                     <b-tr>
-                        <b-th colspan="6"><b-img :src="require('@/assets/sfwgallery/stickers/sticky1.png')" fluid></b-img></b-th>
+                        <b-th colspan="6"><b-img class="large-img" :src="require('@/assets/sfwgallery/stickers/sticky1.png')" fluid></b-img></b-th>
                     </b-tr>
                 </b-tbody>
             </b-table-simple>
@@ -195,5 +195,11 @@
     }
     #jumplinks {
         font-size: 16px;
+    }
+    .large-img {
+        max-width: 40%;
+    }
+    .med-img {
+        max-width: 80%;
     }
 </style>
