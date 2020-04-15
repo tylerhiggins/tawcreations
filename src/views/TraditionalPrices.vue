@@ -12,12 +12,12 @@
         <h1>Prices</h1>
         <h3>Traditional Artwork Prices:</h3>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/tradprices/half_ex.jpg')"></b-img>
             <p><span>Halfbody</span> - Starting at $20</p>
+            <b-img class="example" :src="require('@/assets/tradprices/half_ex.jpg')"></b-img>
         </div>
         <div class="ex_section">
-            <b-img class="example" :src="require('@/assets/tradprices/head_ex.jpg')"></b-img>
             <p><span>Headshot</span> - Starting at $15</p>
+            <b-img class="example" :src="require('@/assets/tradprices/head_ex.jpg')"></b-img>
         </div>
         <div class="ex_section">
             <p><span>Fullbody</span> - Starting at $25 </p>
