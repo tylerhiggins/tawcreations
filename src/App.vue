@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/">Home</b-nav-item>
-          <b-nav-item to="/about">About Me</b-nav-item>
+          <b-navbar-brand to="/"><img id="navlogo" src="./assets/home/navicon.png"> Toxic Angel Wolfy Creations</b-navbar-brand>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
             <b-dropdown-item style="color: black" to="/digitalprices">Digital</b-dropdown-item>
             <b-dropdown-item to="/traditionalprices">Traditional</b-dropdown-item>
             <b-dropdown-item to="/adopts">Adopts</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item to="/tos">Terms of Service</b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
             <b-dropdown-item to="/sfwgallery">SFW Gallery</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>18+ NSFW Gallery (Coming Soon!)</b-dropdown-item>
@@ -64,11 +62,14 @@
     </div>
     <router-view />
     <footer id="footer">
-      <div class="mobileLinks kofiLink text-center py-3">
+      <div class="mobileLinks kofiLink text-center">
         <a href="https://ko-fi.com/toxicangelwolfycreations">
           Buy me a coffee!
           <font-awesome-icon size="lg" icon="coffee"/>
         </a>
+      </div>
+      <div class="extraLinks text-center">
+        <router-link to="/about">About me</router-link>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>&ensp;&ensp;&ensp;&ensp;<router-link to="/tos">Terms of Service</router-link>
       </div>
       <div class="mobileLinks footerInfo text-center py-1">
         <a href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
@@ -116,8 +117,11 @@
     color: white;
     margin-bottom: fill;
   }
-  .nav_drop a{
-    color: black;
+  .nav_drop {
+    margin-top: 6px;
+    a {
+      color: black;
+    }
   }
 body {
   background-color: black;
@@ -131,6 +135,7 @@ body {
   .kofiLink {
     font-weight: bold;
     font-size: 16px;
+    margin-top: 20px;
   }
   @media only screen and (min-width: 550px){
     .mobileLinks {
@@ -148,5 +153,14 @@ body {
   }
   #statustable {
     background-color: black;
+  }
+  .extraLinks{
+    margin-top: 20px;
+    margin-bottom:10px;
+    font-size: 18px;
+  }
+  #navlogo {
+    max-width: 40px;
+    max-height: 46px;
   }
 </style>
