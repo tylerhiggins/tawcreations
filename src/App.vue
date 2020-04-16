@@ -4,7 +4,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-navbar-brand to="/"><img id="navlogo" src="./assets/home/navicon.png"> Toxic Angel Wolfy Creations</b-navbar-brand>
+          <b-navbar-brand to="/">Toxic Angel Wolfy Creations</b-navbar-brand>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
             <b-dropdown-item style="color: black" to="/digitalprices">Digital</b-dropdown-item>
             <b-dropdown-item to="/traditionalprices">Traditional</b-dropdown-item>
@@ -117,11 +117,8 @@
     color: white;
     margin-bottom: fill;
   }
-  .nav_drop {
-    margin-top: 6px;
-    a {
-      color: black;
-    }
+  .nav_drop a{
+    color: black;
   }
 body {
   background-color: black;
