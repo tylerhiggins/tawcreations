@@ -25,16 +25,6 @@
                 </b-tr>
                 <b-tr>
                     <b-th>
-                        <h4 class="adopt-desc">Female Cat/Shark Hybrid: $50 or Trade</h4>
-                        <b-img class="adopt-img" :src="require('@/assets/adopts/wingedadopt.jpg')" fluid></b-img>
-                        <p>Description: This girl comes with this ref as well as a side, front and lineless head shot
-                            art made by me! I am willing to trade for another character with 6 or 7 pieces of art!
-                        <br>You can get an icon for an extra $10
-                        <br>Base made by: <a href="https://www.furaffinity.net/user/chesta"><font-awesome-icon icon="paw"/> Chesta</a>
-                        </p>
-                        <b-button href="https://www.furaffinity.net/view/36036146/">Claim Her Here!</b-button>
-                    </b-th>
-                    <b-th>
                         <h4 class="adopt-desc">Male Bull Terrier Adopt: $20</h4>
                         <b-img class="adopt-img" :src="require('@/assets/adopts/bulladopt.jpg')" fluid></b-img>
                         <p>Description: This good boy is up for adoption for $20!<br>
