@@ -10,6 +10,7 @@
             <b-dropdown-item to="/traditionalprices">Traditional</b-dropdown-item>
             <b-dropdown-item to="/adopts">Adopts</b-dropdown-item>
             <b-dropdown-item to="/ych">YCH Commissions</b-dropdown-item>
+            <b-dropdown-item to="nsfwych" disabled>18+ YCH (Coming Soon!)</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
             <b-dropdown-item to="/sfwgallery">SFW Gallery</b-dropdown-item>
@@ -100,7 +101,7 @@
       '$route'(to) {
         document.title = to.meta.title || "TAWCreations";
       }
-    },
+    }
   }
 </script>
 

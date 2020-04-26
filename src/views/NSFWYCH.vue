@@ -1,5 +1,5 @@
 <template>
-    <div class="nsfwGallery">
+    <div class="nsfwych">
         <div id="notconfirmed" v-if="!ofAge">
             <confirmation></confirmation>
         </div>
@@ -17,7 +17,7 @@
         components: {
             confirmation
         },
-        name: 'nsfwGallery',
+        name: 'nsfwych',
         data() {
             return {
                 ofAge: false
@@ -28,18 +28,14 @@
             if (confirmStr !== null) {
                 let confirm = JSON.parse(confirmStr)
                 let date = new Date()
-                if (date.getTime() > confirm.expDate) {
+                if(date.getTime() > confirm.expDate){
                     localStorage.removeItem("confirm")
                 } else {
                     this.ofAge = confirm.ofAge
                     confirm.expDate = date.getTime() + 5000
-                    localStorage.setItem("confirm", JSON.stringify(confirm))
+                    localStorage.setItem("confirm",JSON.stringify(confirm))
                 }
             }
         }
     }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
