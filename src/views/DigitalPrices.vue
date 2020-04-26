@@ -1,5 +1,6 @@
 <template>
     <div class="prices">
+        <b-container>
         <b-alert
                 :show="dismissCountDown"
                 fade
@@ -9,6 +10,7 @@
         >
             <p>Please read my <a class="alert-link" href="tos">Terms of Service</a> before commissioning me!</p>
         </b-alert>
+        </b-container>
         <h1>Prices</h1>
         <h3>Digital Artwork Prices:</h3>
         <div class="ex_section">

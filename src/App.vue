@@ -9,10 +9,11 @@
             <b-dropdown-item style="color: black" to="/digitalprices">Digital</b-dropdown-item>
             <b-dropdown-item to="/traditionalprices">Traditional</b-dropdown-item>
             <b-dropdown-item to="/adopts">Adopts</b-dropdown-item>
+            <b-dropdown-item to="/ych">YCH Commissions</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
             <b-dropdown-item to="/sfwgallery">SFW Gallery</b-dropdown-item>
-            <b-dropdown-item to="/#" disabled>18+ NSFW Gallery (Coming Soon!)</b-dropdown-item>
+            <b-dropdown-item to="/NSFWGallery" disabled>18+ Gallery (Coming Soon!)</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/#" disabled>Crafts! (Coming Soon!)</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>Fursuits! (Coming Soon!)</b-dropdown-item>

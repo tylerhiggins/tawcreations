@@ -1,5 +1,6 @@
 <template>
 <div class="tos">
+    <b-container>
     <h1 class="pt-lg-3" id="tos_main_title">Terms of Service</h1>
     <ul id="main-list">
         <li class="tos-title">Artwork Terms of Service:</li>
@@ -36,7 +37,7 @@
             <li>I reserve the right to reject any commission/trade/request that I do not feel comfortable with doing.</li>
         </ul>
     </ul>
-
+    </b-container>
 </div>
 </template>
 

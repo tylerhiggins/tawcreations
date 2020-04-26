@@ -44,9 +44,12 @@
          text="Buy an OC!">
              <b-button to="/adopts">Adopts Page</b-button>
          </b-carousel-slide>
-         <b-carousel-slide :img-src="require('@/assets/home/ychslide.jpg')" caption="Sergal or Shark icon YCH!"
-         text="Only $10!">
-             <b-button href="https://www.furaffinity.net/view/35707066/">More Info!</b-button>
+         <b-carousel-slide :img-src="require('@/assets/home/ychslide.jpg')" caption="Featured YCH"
+         text="Sergal or Shark Icons! Only $10!">
+             <span class="pr-sm-2">
+             <b-button  class="featuredych" href="https://www.furaffinity.net/view/35707066/">More Info!</b-button>
+             </span>
+             <b-button class="featuredych" to="/ych">All YCH's</b-button>
          </b-carousel-slide>
      </b-carousel>
       </b-container>
@@ -70,5 +73,8 @@ export default {
         .desktopb {
             display: none
         }
+    }
+    .featuredych {
+        background-color: cadetblue;
     }
 </style>

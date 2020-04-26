@@ -53,6 +53,18 @@ const routes = [
     meta: {title: 'TAWCreations - Adopts'}
   },
   {
+    path: "/ych",
+    name: "ych",
+    component: () => import("../views/YCH.vue"),
+    meta: {title: 'TAWCreations - YCH'}
+  },
+  {
+    path: "/NSFWGallery",
+    name: "nsfwGallery",
+    component: () => import("../views/NSFWGallery.vue"),
+    meta: {title: 'TAWCreations - 18+ Gallery'}
+  },
+  {
     path: "*",
     component: () => import("../views/PageNotFound.vue"),
     meta: {title: 'TAWCreations - 404'}
