@@ -81,7 +81,6 @@
         &ensp;&ensp;&ensp;&ensp;<a href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">Trello</a>
       </div>
       <div class="footer-copyright text-center py-2">Copyright &copy;2020 Toxic Angel Wolfy Creations<br>
-        Created and maintained by <a href="https://furaffinity.net/user/luckyhusky/">luckyhusky</a><br>
         <div class="text-center pt-lg-2">
           <a class="btn" href="https://github.com/tylerhiggins/tawcreations2">
         <font-awesome-icon size="2x" :icon="['fab','github']" />
