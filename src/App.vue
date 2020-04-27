@@ -135,11 +135,6 @@ body {
     font-size: 16px;
     margin-top: 20px;
   }
-  @media only screen and (min-width: 550px){
-    .mobileLinks {
-      display: none;
-    }
-  }
   .status {
     text-align: center;
     background-color: black;
