@@ -44,7 +44,7 @@ const routes = [
     path: "/sfwgallery",
     name: "sfwgallery",
     component: () => import("../views/SafeGallery.vue"),
-    meta: {title: 'TAWCreations - SFW Gallery'}
+    meta: {title: 'TAWCreations - Gallery'}
   },
   {
     path: "/adopts",
@@ -59,7 +59,7 @@ const routes = [
     meta: {title: 'TAWCreations - YCH'}
   },
   {
-    path: "/NSFWGallery",
+    path: "/nsfwgallery",
     name: "nsfwGallery",
     component: () => import("../views/NSFWGallery.vue"),
     meta: {title: 'TAWCreations - 18+ Gallery'}

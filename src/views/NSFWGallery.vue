@@ -1,11 +1,25 @@
 <template>
-    <div class="nsfwGallery">
+    <div class="nsfwGallery text-center">
         <div id="notconfirmed" v-if="!ofAge">
             <confirmation></confirmation>
         </div>
         <div id="confirmed" v-if="ofAge">
-            <b-container>
-                <h1>Placeholder</h1>
+                <h1 id="title">18+ Gallery</h1>
+            <b-container id="nsfwconainter">
+                <b-row>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw1.png')" fluid></b-img>
+                    </b-col>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw2.png')" fluid></b-img>
+                    </b-col>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw3.png')" fluid></b-img>
+                    </b-col>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw4.png')" fluid></b-img>
+                    </b-col>
+                </b-row>
             </b-container>
         </div>
     </div>
@@ -32,8 +46,6 @@
                     localStorage.removeItem("confirm")
                 } else {
                     this.ofAge = confirm.ofAge
-                    confirm.expDate = date.getTime() + 5000
-                    localStorage.setItem("confirm", JSON.stringify(confirm))
                 }
             }
         }
@@ -41,5 +53,12 @@
 </script>
 
 <style lang="scss" scoped>
-
+#title {
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+    #nsfwconainter {
+        margin-bottom: 50px;
+    }
 </style>

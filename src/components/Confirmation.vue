@@ -8,7 +8,7 @@
             <b-card-body>
                 <span class="pr-lg-4">
                 <b-button variant="success" @click="confirmAge">Yes</b-button>
-                </span><b-button variant="danger" to="/sfwgallery">No</b-button>
+                </span><b-button variant="danger" to="/">No</b-button>
                 <b-container>
                 <p id="agreement" class="mt-3">By clicking "Yes" you are confirming that you are 18 years or older, and have
                 agreed to view sexually explicit content.</p>
@@ -26,7 +26,7 @@
             confirmAge: function() {
                 if(!localStorage.confirm){
                     let date = new Date()
-                    let expire = 5000
+                    let expire = 7200000
                     let newConfirm = {
                         ofAge: true,
                         expDate: date.getTime() + expire

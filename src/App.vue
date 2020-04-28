@@ -4,17 +4,19 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-navbar-brand to="/">Toxic Angel Wolfy Creations</b-navbar-brand>
+          <b-nav-item to="/">
+            <font-awesome-icon icon="home" size="lg"/>
+          </b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
             <b-dropdown-item style="color: black" to="/digitalprices">Digital</b-dropdown-item>
             <b-dropdown-item to="/traditionalprices">Traditional</b-dropdown-item>
             <b-dropdown-item to="/adopts">Adopts</b-dropdown-item>
             <b-dropdown-item to="/ych">YCH Commissions</b-dropdown-item>
-            <b-dropdown-item to="nsfwych" disabled>18+ YCH (Coming Soon!)</b-dropdown-item>
+            <b-dropdown-item to="/nsfwych">18+ YCH</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
-            <b-dropdown-item to="/sfwgallery">SFW Gallery</b-dropdown-item>
-            <b-dropdown-item to="/NSFWGallery" disabled>18+ Gallery (Coming Soon!)</b-dropdown-item>
+            <b-dropdown-item to="/sfwgallery">Gallery</b-dropdown-item>
+            <b-dropdown-item to="/nsfwgallery">18+ Gallery</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/#" disabled>Crafts! (Coming Soon!)</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>Fursuits! (Coming Soon!)</b-dropdown-item>
@@ -22,23 +24,23 @@
         </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-form>
-        <b-nav-item style="padding-right: 10px" href="https://twitter.com/wolfy_creations">
-          <font-awesome-icon size="lg" :icon="[ 'fab','twitter-square']"/>
-        </b-nav-item>
+          <b-nav-item style="padding-right: 10px" href="https://discord.gg/TXuTD3">
+            <font-awesome-icon :icon="['fab','discord']" />
+          </b-nav-item>
           <b-nav-item style="padding-right: 10px" href="https://www.instagram.com/toxicangelwolfy/">
-            <font-awesome-icon size="lg" :icon="['fab','instagram']" />
+            <font-awesome-icon :icon="['fab','instagram']" />
           </b-nav-item>
         <b-nav-item style="padding-right: 10px" href="https://www.deviantart.com/toxicangelwolfy">
-          <font-awesome-icon size="lg" :icon="['fab', 'deviantart']" />
+          <font-awesome-icon :icon="['fab', 'deviantart']" />
         </b-nav-item>
         <b-nav-item style="padding-right: 10px" href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">
-          <font-awesome-icon size="lg" :icon="['fab', 'trello']" />
+          <font-awesome-icon :icon="['fab', 'trello']" />
         </b-nav-item>
         <b-nav-item style="padding-right: 10px" href="https://www.furaffinity.net/user/toxicangelwolfy">
-          <font-awesome-icon icon="paw" size="lg"/>
+          <font-awesome-icon icon="paw"/>
         </b-nav-item>
           <b-nav-item href="https://ko-fi.com/toxicangelwolfycreations">
-            <font-awesome-icon icon="coffee" size="lg"/>
+            <font-awesome-icon icon="coffee"/>
           </b-nav-item>
         </b-nav-form>
       </b-navbar-nav>
@@ -64,22 +66,38 @@
     </div>
     <router-view />
     <footer id="footer">
+      <b-container>
+        <b-row>
+          <b-col>
       <div class="mobileLinks kofiLink text-center">
         <a href="https://ko-fi.com/toxicangelwolfycreations">
           Buy me a coffee!
           <font-awesome-icon size="lg" icon="coffee"/>
         </a>
       </div>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col>
       <div class="extraLinks text-center">
         <router-link to="/about">About me</router-link>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>&ensp;&ensp;&ensp;&ensp;<router-link to="/tos">Terms of Service</router-link>
       </div>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col>
       <div class="mobileLinks footerInfo text-center py-1">
         <a href="https://www.furaffinity.net/user/toxicangelwolfy">Furaffinity</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
         &ensp;&ensp;&ensp;&ensp;<a href="https://www.deviantart.com/toxicangelwolfy">Deviantart</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
         &ensp;&ensp;&ensp;&ensp;<a href="https://twitter.com/wolfy_creations">Twitter</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
         &ensp;&ensp;&ensp;&ensp;<a href="https://www.instagram.com/toxicangelwolfy/">Instagram</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
-        &ensp;&ensp;&ensp;&ensp;<a href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">Trello</a>
+        &ensp;&ensp;&ensp;&ensp;<a href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">Trello</a>&ensp;&ensp;&ensp;<span class="splitter">|</span>
+        &ensp;&ensp;&ensp;<a href="https://discord.gg/TXuTD3">Discord Server</a>
       </div>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col>
       <div class="footer-copyright text-center py-2">Copyright &copy;2020 Toxic Angel Wolfy Creations<br>
         <div class="text-center pt-lg-2">
           <a class="btn" href="https://github.com/tylerhiggins/tawcreations2">
@@ -90,6 +108,9 @@
           </a>
         </div>
       </div>
+          </b-col>
+        </b-row>
+      </b-container>
     </footer>
   </div>
 </template>
@@ -98,7 +119,7 @@
   export default {
     watch: {
       '$route'(to) {
-        document.title = to.meta.title || "TAWCreations";
+        document.title = to.meta.title || "Toxic Angel Wolfy Creations";
       }
     }
   }

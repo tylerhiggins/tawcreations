@@ -1,7 +1,7 @@
 <template>
     <div class="ych text-center">
         <b-container>
-        <div id="intro">
+        <div id="ych_intro">
         <h1>YCH Commissions</h1>
             <p>What is a YCH? YCH means Your Character Here. They are commissions where the pose of
             the character is pre-made but will be drawn with your character or fursona. Here are a the
@@ -17,7 +17,7 @@
                         <b-td>
                             <h4 class="ych_title">Sergal or Shark Headshot Icon - $10</h4>
                             <b-img class="ychimg" :src="require('@/assets/safeych/sergal.jpg')" fluid></b-img>
-                            <p class="description"><span class="notes">Note: Sergal or shark characters only.<br></span>
+                            <p class="ych_description"><span class="ych_notes">Note: Sergal or shark characters only.<br></span>
                             Headshot icon of your sergal or shark character with background of your choice! Only $10 per
                             icon!</p>
                             <b-button href="https://www.furaffinity.net/view/35707066/">More Info</b-button>
@@ -37,9 +37,6 @@
 </script>
 
 <style lang="scss" scoped>
-    .ych {
-
-    }
     hr {
         border-color: white;
         border-width: 3px;
@@ -50,11 +47,11 @@
     #ychtable {
         color: white;
     }
-    p {
+    .ych_description {
         font-size: 18px;
         margin-top: 20px;
     }
-    .notes {
+    .ych_notes {
         color: red;
     }
 </style>

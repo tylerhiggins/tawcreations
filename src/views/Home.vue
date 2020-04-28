@@ -16,9 +16,12 @@
        <b-carousel-slide :img-src="require('@/assets/home/slide1.png')" caption="Welcome to Toxic Angel Wolfy Creations!"
                          text="Freelance artist and crafter.">
        </b-carousel-slide>
-         <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="SFW Gallery Now Open!"
+         <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="Galleries Now Open!"
                            text="Check it out!">
-             <b-button to="/sfwgallery">SFW Gallery</b-button>
+             <span class="pr-2">
+             <b-button to="/sfwgallery">Gallery</b-button>
+             </span>
+             <b-button to="/nsfwgallery">18+ Gallery</b-button>
          </b-carousel-slide>
          <b-carousel-slide :img-src="require('@/assets/home/slide4.jpg')" caption="New Adopts page!"
          text="Buy an OC!">
