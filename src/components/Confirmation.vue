@@ -6,7 +6,7 @@
                 <h1>Are you 18 or older?</h1>
             </b-card-header>
             <b-card-body>
-                <span class="pr-lg-4">
+                <span class="yes_span">
                 <b-button variant="success" @click="confirmAge">Yes</b-button>
                 </span><b-button variant="danger" to="/">No</b-button>
                 <b-container>
@@ -40,5 +40,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+.yes_span {
+    padding-right: 15px;
+}
 </style>
