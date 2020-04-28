@@ -17,7 +17,7 @@
                          text="Freelance artist and crafter.">
        </b-carousel-slide>
          <b-carousel-slide id="discordslide" :img-src="require('@/assets/home/discord.jpg')">
-             <b-button id="discordbtn" href="https://discord.gg/TXuTD3">Join my server here!</b-button>
+             <b-button id="discordbtn" href="https://discord.gg/gzm29Nr">Join my server here!</b-button>
          </b-carousel-slide>
          <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="Galleries Now Open!"
                            text="Check it out!">

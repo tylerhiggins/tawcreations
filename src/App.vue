@@ -24,7 +24,7 @@
         </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-form>
-          <b-nav-item style="padding-right: 10px" href="https://discord.gg/TXuTD3">
+          <b-nav-item style="padding-right: 10px" href="https://discord.gg/gzm29Nr">
             <font-awesome-icon :icon="['fab','discord']" />
           </b-nav-item>
           <b-nav-item style="padding-right: 10px" href="https://www.instagram.com/toxicangelwolfy/">
@@ -92,7 +92,7 @@
         &ensp;&ensp;&ensp;&ensp;<a href="https://twitter.com/wolfy_creations">Twitter</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
         &ensp;&ensp;&ensp;&ensp;<a href="https://www.instagram.com/toxicangelwolfy/">Instagram</a>&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
         &ensp;&ensp;&ensp;&ensp;<a href="https://trello.com/b/QLelcq6Z/toxic-angel-wolfy-creations-queues">Trello</a>&ensp;&ensp;&ensp;<span class="splitter">|</span>
-        &ensp;&ensp;&ensp;<a href="https://discord.gg/TXuTD3">Discord Server</a>
+        &ensp;&ensp;&ensp;<a href="https://discord.gg/gzm29Nr">Discord Server</a>
       </div>
           </b-col>
         </b-row>
