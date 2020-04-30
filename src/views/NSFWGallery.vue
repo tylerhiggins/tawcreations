@@ -6,7 +6,7 @@
         <div id="confirmed" v-if="ofAge">
                 <h1 id="title">18+ Gallery</h1>
             <b-container id="nsfwconainter">
-                <b-row>
+                <b-row class="pb-5">
                     <b-col>
                         <b-img :src="require('@/assets/nsfwgallery/nsfw1.png')" fluid></b-img>
                     </b-col>
@@ -18,6 +18,22 @@
                     </b-col>
                     <b-col>
                         <b-img :src="require('@/assets/nsfwgallery/nsfw4.png')" fluid></b-img>
+                    </b-col>
+                </b-row>
+                <b-row class="pb-5">
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw5.jpg')" fluid></b-img>
+                    </b-col>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw6.png')" fluid></b-img>
+                    </b-col>
+                </b-row>
+                <b-row>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw7.png')" fluid></b-img>
+                    </b-col>
+                    <b-col>
+                        <b-img :src="require('@/assets/nsfwgallery/nsfw8.png')" fluid></b-img>
                     </b-col>
                 </b-row>
             </b-container>
