@@ -8,23 +8,23 @@
             current YCH's I am offering.</p>
         </div>
             <hr>
-            <b-table-simple id="ychtable" borderless>
-                <b-thead>
-
-                </b-thead>
-                <b-tbody>
-                    <b-tr>
-                        <b-td>
-                            <h4 class="ych_title">Sergal or Shark Headshot Icon - $10</h4>
-                            <b-img class="ychimg" :src="require('@/assets/safeych/sergal.jpg')" fluid></b-img>
-                            <p class="ych_description"><span class="ych_notes">Note: Sergal or shark characters only.<br></span>
-                            Headshot icon of your sergal or shark character with background of your choice! Only $10 per
-                            icon!</p>
-                            <b-button href="https://www.furaffinity.net/view/35707066/">More Info</b-button>
-                        </b-td>
-                    </b-tr>
-                </b-tbody>
-            </b-table-simple>
+            <b-row>
+                <b-col>
+                    <h4 class="ych_title">Sergal or Shark Headshot Icon - $10</h4>
+                    <b-img class="ychimg" :src="require('@/assets/safeych/sergal.jpg')" fluid></b-img>
+                    <p class="ych_description"><span class="ych_notes">Note: Sergal or shark characters only.<br></span>
+                        Headshot icon of your sergal or shark character with background of your choice! Only $10 per
+                        icon!</p>
+                    <b-button href="https://www.furaffinity.net/view/35707066/">More Info</b-button>
+                </b-col>
+                <b-col>
+                    <h4 class="ych_title">Dutch Angel Dragon YCH - $10</h4>
+                    <b-img class="ychimg" :src="require('@/assets/safeych/dadych.jpg')" fluid></b-img>
+                    <p class="ych_description">Includes a custom background and expression. For $3.50 I can have it shipped
+                     as a badge (shipping available in U.S. only).</p>
+                    <b-button href="https://www.furaffinity.net/view/36216725/">More Info</b-button>
+                </b-col>
+            </b-row>
         </b-container>
     </div>
 </template>
@@ -42,7 +42,7 @@
         border-width: 3px;
     }
     .ychimg {
-        max-width: 65%;
+
     }
     #ychtable {
         color: white;

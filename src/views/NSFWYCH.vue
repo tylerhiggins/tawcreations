@@ -61,7 +61,7 @@
         margin-bottom: 50px;
     }
     .ychimg {
-        max-width: 60%;
+        max-width: 75%;
     }
     .ych_description {
         font-size: 18px;
