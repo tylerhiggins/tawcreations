@@ -29,8 +29,13 @@
         </div>
         <div class="ex_section">
             <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
+            <div id="noauth" v-if="!ofAge">
+            <confirmation></confirmation>
+            </div>
+            <div id="auth" v-if="ofAge">
             <b-button href="https://www.furaffinity.net/gallery/toxicangelwolfy/folder/752565/NSFW">
                 NSFW Examples</b-button>
+            </div>
         </div>
         <div class="ex_section">
             <p><span>Gore</span> - Starting at $15</p>
@@ -54,16 +59,31 @@
 </template>
 
 <script>
+    import confirmation from '../components/Confirmation.vue'
     export default{
+        components: {
+          confirmation
+        },
         name: "traditionalprices",
         data() {
             return {
                 dismissSecs: 10,
                 dismissCountdown: 0,
+                ofAge: false
             }
         },
         created: function(){
             this.showAlert()
+            let confirmStr = localStorage.getItem("confirm")
+            if (confirmStr !== null) {
+                let confirm = JSON.parse(confirmStr)
+                let date = new Date()
+                if (date.getTime() > confirm.expDate) {
+                    localStorage.removeItem("confirm")
+                } else {
+                    this.ofAge = confirm.ofAge
+                }
+            }
         },
         methods: {
             countDownChanged(dismissCountDown) {
