@@ -42,7 +42,7 @@
                 <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
                 <b-img class="example" :src="require('@/assets/nsfwgallery/nsfw4.png')"/>
             </div>
-            <div id="noych" v-if="inStorage && !ofAge">
+            <div id="no-selected" v-if="inStorage && !ofAge">
             </div>
         </div>
         <div class="ex_section">

@@ -28,14 +28,15 @@
             <p><span>Couples</span> - Starting at $30</p>
         </div>
         <div class="ex_section">
-            <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
-            <div id="noauth" v-if="!ofAge">
-            <confirmation></confirmation>
+            <div id="noauth" v-if="!inStorage">
+            <confirmation :coming-from="'prices'"></confirmation>
             </div>
             <div id="auth" v-if="ofAge">
+                <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
             <b-button href="https://www.furaffinity.net/gallery/toxicangelwolfy/folder/752565/NSFW">
                 NSFW Examples</b-button>
             </div>
+            <div id="no-selected" v-if="inStorage && !ofAge"></div>
         </div>
         <div class="ex_section">
             <p><span>Gore</span> - Starting at $15</p>
@@ -69,17 +70,20 @@
             return {
                 dismissSecs: 10,
                 dismissCountdown: 0,
-                ofAge: false
+                ofAge: false,
+                inStorage: false
             }
         },
         created: function(){
             this.showAlert()
             let confirmStr = localStorage.getItem("confirm")
             if (confirmStr !== null) {
+                this.inStorage = true
                 let confirm = JSON.parse(confirmStr)
                 let date = new Date()
                 if (date.getTime() > confirm.expDate) {
                     localStorage.removeItem("confirm")
+                    this.inStorage = false
                 } else {
                     this.ofAge = confirm.ofAge
                 }
