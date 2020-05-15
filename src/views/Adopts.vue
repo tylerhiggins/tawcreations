@@ -46,7 +46,7 @@
                         10) Monkey<br>
                         11) Skunk<br>
                         12) Hyena<br><br>
-                        I can add a custom ref sheet for an additional $30! (Feral +$15, NSFW +$25).<br>
+                        I can add a custom ref sheet for an additional $30! (Feral +$15, Adult Version(Id Required) +$25).<br>
                         These adopts were colored using a P2U base by: <a href="https://www.furaffinity.net/user/gatorbite"><font-awesome-icon icon="paw"/> gatorbite</a></p>
                     <b-button href="https://www.furaffinity.net/view/36345662/">Claim Here! (FA Notes)</b-button>
                 </b-col>
