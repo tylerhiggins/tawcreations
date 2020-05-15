@@ -34,9 +34,9 @@
                     <h4 class="adopt-desc">Big Batch Adopts: $10 per character!</h4>
                     <b-img class="adopt-img" :src="require('@/assets/adopts/big_batch.png')" fluid></b-img>
                     <p>Species list:<br>
-                        &nbsp;1) Ferret<br>
+                        &nbsp;<strike>1) Ferret</strike><br>
                         2) Squirrel<br>
-                        3) Otter<br>
+                        <strike>3) Otter</strike><br>
                         <strike>4) Tanuki</strike><br>
                         5) Possum<br>
                         6) Raccoon<br>
