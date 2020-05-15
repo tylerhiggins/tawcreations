@@ -35,21 +35,14 @@
             <b-img class="example" :src="require('@/assets/prices/couples_ex.jpg')"></b-img>
         </div>
         <div class="ex_section">
-            <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
             <div id="noauth" v-if="!inStorage">
                 <confirmation :coming-from="'prices'"></confirmation>
             </div>
             <div id="auth" v-if="ofAge">
+                <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
                 <b-img class="example" :src="require('@/assets/nsfwgallery/nsfw4.png')"/>
             </div>
             <div id="noych" v-if="inStorage && !ofAge">
-                <b-container>
-                <b-card class="bg-dark text-center">
-                    <b-card-header>
-                        <h1 id="message">You are not authorized to view this image.</h1>
-                    </b-card-header>
-                </b-card>
-                </b-container>
             </div>
         </div>
         <div class="ex_section">
@@ -96,7 +89,8 @@
             return {
                 dismissSecs: 10,
                 dismissCountdown: 0,
-                ofAge: false
+                ofAge: false,
+                inStorage: false
             }
         },
         created: function(){
@@ -158,9 +152,5 @@
     }
     p {
         margin-top: 10px;
-    }
-    #message{
-        color: red;
-        text-decoration: none;
     }
 </style>

@@ -17,11 +17,6 @@
                 </b-container>
             </b-card-body>
         </b-card>
-        <b-card class="bg-dark text-center" v-if="noYCH">
-            <b-card-header>
-                <h1 id="message">You are not authorized to view this image.</h1>
-            </b-card-header>
-        </b-card>
     </b-container>
     </div>
 </template>
