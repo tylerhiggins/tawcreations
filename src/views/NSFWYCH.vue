@@ -1,7 +1,7 @@
 <template>
     <div class="nsfwych text-center">
-        <div id="notconfirmed" v-if="!ofAge">
-            <confirmation></confirmation>
+        <div id="notconfirmed" v-if="!inStorage">
+            <confirmation :coming-from="'ych'"></confirmation>
         </div>
         <div id="confirmed" v-if="ofAge">
             <h1 id="nsfwych_title">Current 18+ YCH's</h1>
@@ -33,19 +33,27 @@
         name: 'nsfwych',
         data() {
             return {
-                ofAge: false
+                ofAge: false,
+                inStorage: false
             }
         },
         created(){
             let confirmStr = localStorage.getItem("confirm")
             if (confirmStr !== null) {
+                this.inStorage = true
                 let confirm = JSON.parse(confirmStr)
                 let date = new Date()
                 if(date.getTime() > confirm.expDate){
                     localStorage.removeItem("confirm")
+                    this.inStorage = false
                 } else {
                     this.ofAge = confirm.ofAge
                 }
+                if(this.inStorage && !this.ofAge){
+                    this.$router.push('ych')
+                }
+            } else {
+                this.inStorage = false
             }
         }
     }

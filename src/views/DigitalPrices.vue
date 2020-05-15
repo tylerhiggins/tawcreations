@@ -36,11 +36,20 @@
         </div>
         <div class="ex_section">
             <p><span>NSFW (ID required)</span> - Starting at $25<br></p>
-            <div id="noauth" v-if="!ofAge">
-                <confirmation></confirmation>
+            <div id="noauth" v-if="!inStorage">
+                <confirmation :coming-from="'prices'"></confirmation>
             </div>
             <div id="auth" v-if="ofAge">
                 <b-img class="example" :src="require('@/assets/nsfwgallery/nsfw4.png')"/>
+            </div>
+            <div id="noych" v-if="inStorage && !ofAge">
+                <b-container>
+                <b-card class="bg-dark text-center">
+                    <b-card-header>
+                        <h1 id="message">You are not authorized to view this image.</h1>
+                    </b-card-header>
+                </b-card>
+                </b-container>
             </div>
         </div>
         <div class="ex_section">
@@ -94,13 +103,17 @@
             this.showAlert()
             let confirmStr = localStorage.getItem("confirm")
             if (confirmStr !== null) {
+                this.inStorage = true
                 let confirm = JSON.parse(confirmStr)
                 let date = new Date()
                 if (date.getTime() > confirm.expDate) {
                     localStorage.removeItem("confirm")
+                    this.inStorage = false
                 } else {
                     this.ofAge = confirm.ofAge
                 }
+            } else {
+                this.inStorage = false
             }
         },
         methods: {
@@ -109,7 +122,7 @@
             },
             showAlert() {
                 this.dismissCountDown = this.dismissSecs
-            },
+            }
         }
     }
 
@@ -145,5 +158,9 @@
     }
     p {
         margin-top: 10px;
+    }
+    #message{
+        color: red;
+        text-decoration: none;
     }
 </style>

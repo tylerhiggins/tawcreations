@@ -1,7 +1,7 @@
 <template>
     <div class="nsfwGallery text-center">
-        <div id="notconfirmed" v-if="!ofAge">
-            <confirmation></confirmation>
+        <div id="notconfirmed" v-if="!inStorage">
+            <confirmation :coming-from="'gallery'"></confirmation>
         </div>
         <div id="confirmed" v-if="ofAge">
                 <h1 id="title">18+ Gallery</h1>
@@ -57,19 +57,27 @@
         name: 'nsfwGallery',
         data() {
             return {
-                ofAge: false
+                ofAge: false,
+                inStorage: false
             }
         },
         created(){
             let confirmStr = localStorage.getItem("confirm")
             if (confirmStr !== null) {
+                this.inStorage = true
                 let confirm = JSON.parse(confirmStr)
                 let date = new Date()
                 if (date.getTime() > confirm.expDate) {
                     localStorage.removeItem("confirm")
+                    this.inStorage = false
                 } else {
                     this.ofAge = confirm.ofAge
                 }
+                if(this.inStorage && !this.ofAge) {
+                    this.$router.push('sfwgallery')
+                }
+            } else {
+              this.inStorage = false
             }
         }
     }
