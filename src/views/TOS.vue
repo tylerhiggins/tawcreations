@@ -5,7 +5,7 @@
     <ul id="main-list">
         <li class="tos-title">Artwork Terms of Service:</li>
         <ul class="secondary-list">
-            <li>My workdays are Monday-Friday. I do not work on Saturday or Sunday.</li>
+            <br><li>My workdays are Monday-Friday. I do not work on Saturday or Sunday.</li><br>
             <li>Commissions are sold as-is when completed. <span>NO REFUNDS</span>!</li><br>
             <li>If you have already given me final approval on completed artwork and wish to make a change,
             I will do so for a fee. I <span>WILL NOT</span> make changes for free after the work is complete.</li><br>
