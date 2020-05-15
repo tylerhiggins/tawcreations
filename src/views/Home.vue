@@ -4,7 +4,7 @@
      <b-carousel
              id="carousel-1"
              v-model="slide"
-             :interval="4000"
+             :interval="5000"
              controls
              img-width="1280"
              img-height="720"
@@ -19,16 +19,11 @@
          <b-carousel-slide id="discordslide" :img-src="require('@/assets/home/discord.jpg')">
              <b-button id="discordbtn" href="https://discord.gg/gzm29Nr">Join my server here!</b-button>
          </b-carousel-slide>
-         <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="Galleries Now Open!"
-                           text="Check it out!">
+         <b-carousel-slide :img-src="require('@/assets/home/slide2.jpg')" caption="Check out my Gallery!">
              <span class="pr-2">
              <b-button to="/sfwgallery">Gallery</b-button>
              </span>
              <b-button to="/nsfwgallery">18+ Gallery</b-button>
-         </b-carousel-slide>
-         <b-carousel-slide :img-src="require('@/assets/home/slide4.jpg')" caption="New Adopts page!"
-         text="Buy an OC!">
-             <b-button to="/adopts">Adopts Page</b-button>
          </b-carousel-slide>
          <b-carousel-slide :img-src="require('@/assets/home/ychslide.jpg')" caption="Featured YCH"
          text="Sergal or Shark Icons! Only $10!">
@@ -36,6 +31,10 @@
              <b-button  class="featuredych" href="https://www.furaffinity.net/view/35707066/">More Info!</b-button>
              </span>
              <b-button class="featuredych" to="/ych">All YCH's</b-button>
+         </b-carousel-slide>
+         <b-carousel-slide :img-src="require('@/assets/home/slide4.jpg')" caption="New Adopts page!"
+                           text="Buy an OC!">
+             <b-button to="/adopts">Adopts Page</b-button>
          </b-carousel-slide>
      </b-carousel>
       </b-container>

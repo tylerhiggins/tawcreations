@@ -6,7 +6,7 @@
             <a href="#fullbody">Full Body</a>&ensp;|&ensp;<a href="#halfbody">Half Body</a>&ensp;|&ensp;
             <a href="#headshots">Head Shots</a>&ensp;|&ensp;<a href="#feral">Feral</a><br>
             <a href="#chibi">Chibi</a>&ensp;|&ensp;<a href="#multi">Multiple Characters</a>&ensp;|&ensp;
-            <a href="#real">Realistic</a>&ensp;|&ensp;<a href="#sticker">Stickers</a>
+            <a href="#real">Realistic</a>&ensp;|&ensp;<a href="#sticker">Stickers</a> | <a href="#gore">Gore</a>
         </div>
         <b-container class="mt-4 mb-5">
             <b-row class="mb-sm-2">
@@ -396,6 +396,16 @@
                 <b-col></b-col>
                 <b-col>
                     <b-img :src="require('@/assets/sfwgallery/stickers/sticky1.png')" fluid/>
+                </b-col>
+                <b-col></b-col>
+            </b-row>
+            <b-row class="mt-lg-3 mb-sm-2">
+                <b-col class="title-col" id="gore">Gore</b-col>
+            </b-row>
+            <b-row>
+                <b-col></b-col>
+                <b-col>
+                    <b-img :src="require('@/assets/prices/gore_ex.png')" fluid />
                 </b-col>
                 <b-col></b-col>
             </b-row>
