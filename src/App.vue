@@ -168,6 +168,7 @@
                   <font-awesome-icon size="2x" :icon="['fab', 'bootstrap']" />
                 </a>
               </div>
+              <div><a href="./assets/siteadmin/sitemap.xml">Sitemap</a></div>
             </div>
           </b-col>
         </b-row>
