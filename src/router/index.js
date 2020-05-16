@@ -18,62 +18,60 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
-    meta: {title: 'TAWCreations - About'}
+    meta: { title: "TAWCreations - About" }
   },
   {
     path: "/TOS",
     name: "tos",
-    component: () =>
-        import("../views/TOS.vue"),
-    meta: {title: 'TAWCreations - TOS'}
+    component: () => import("../views/TOS.vue"),
+    meta: { title: "TAWCreations - TOS" }
   },
   {
     path: "/digitalprices",
     name: "digitalprices",
-    component:() =>
-        import("../views/DigitalPrices.vue"),
-    meta: {title: 'TAWCreations - Prices'}
+    component: () => import("../views/DigitalPrices.vue"),
+    meta: { title: "TAWCreations - Prices" }
   },
   {
     path: "/traditionalprices",
     name: "traditionalprices",
     component: () => import("../views/TraditionalPrices.vue"),
-    meta: {title: 'TAWCreations - Traditional Prices'}
+    meta: { title: "TAWCreations - Traditional Prices" }
   },
   {
     path: "/sfwgallery",
     name: "sfwgallery",
     component: () => import("../views/SafeGallery.vue"),
-    meta: {title: 'TAWCreations - Gallery'}
+    meta: { title: "TAWCreations - Gallery" }
   },
   {
     path: "/adopts",
     name: "adopts",
     component: () => import("../views/Adopts.vue"),
-    meta: {title: 'TAWCreations - Adopts'}
+    meta: { title: "TAWCreations - Adopts" }
   },
   {
     path: "/ych",
     name: "ych",
     component: () => import("../views/YCH.vue"),
-    meta: {title: 'TAWCreations - YCH'}
+    meta: { title: "TAWCreations - YCH" }
   },
   {
     path: "/nsfwgallery",
     name: "nsfwGallery",
     component: () => import("../views/NSFWGallery.vue"),
-    meta: {title: 'TAWCreations - 18+ Gallery'}
+    meta: { title: "TAWCreations - 18+ Gallery" }
   },
   {
     path: "/nsfwych",
     name: "nsfwych",
     component: () => import("../views/NSFWYCH.vue"),
-    meta: {title: 'TAWCreations - 18+ YCH'}
+    meta: { title: "TAWCreations - 18+ YCH" }
   },
   {
     path: "*",
     component: () => import("../views/PageNotFound.vue"),
-    meta: {title: 'TAWCreations - 404'}
+    meta: { title: "TAWCreations - 404" }
   }
 ];
 

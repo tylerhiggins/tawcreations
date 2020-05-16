@@ -1,18 +1,26 @@
 <template>
   <div class="about">
     <div>
-      <b-img id=avatar :src="require('@/assets/about/avatar.jpg')"></b-img>
+      <b-img id="avatar" :src="require('@/assets/about/avatar.jpg')"></b-img>
     </div>
     <div>
-      <p>Hello! My name is Toxic Angel Wolfy! I am a freelance artist and crafter
-      specializing in artwork and crafts for the <a href="https://furscience.com/whats-a-furry/">
-      furry fandom!</a> I currently live in Oregon, U.S. and am engaged to a wonderful
-      husky who is named Lucky! My hobbies and interests include exploring new places,
-      drawing, and video gaming!<br><br>My goal in life is to create a better world through art and
-      helping others. I would like to thank you for your interest in my work, and hope
-      that you enjoy my arts and crafts!<br><br> Feel free to contact me through any of my
-      social media pages, or email me at <a href="mailto: toxicangelwolfycreations@gmail.com">toxicangelwolfycreations@gmail.com</a>
-        for any inquiries about my work!</p>
+      <p>
+        Hello! My name is Toxic Angel Wolfy! I am a freelance artist and crafter
+        specializing in artwork and crafts for the
+        <a href="https://furscience.com/whats-a-furry/"> furry fandom!</a> I
+        currently live in Oregon, U.S. and am engaged to a wonderful husky who
+        is named Lucky! My hobbies and interests include exploring new places,
+        drawing, and video gaming!<br /><br />My goal in life is to create a
+        better world through art and helping others. I would like to thank you
+        for your interest in my work, and hope that you enjoy my arts and
+        crafts!<br /><br />
+        Feel free to contact me through any of my social media pages, or email
+        me at
+        <a href="mailto: toxicangelwolfycreations@gmail.com"
+          >toxicangelwolfycreations@gmail.com</a
+        >
+        for any inquiries about my work!
+      </p>
     </div>
   </div>
 </template>
@@ -20,22 +28,21 @@
 <script>
 export default {
   name: "about"
-
 };
 </script>
 
 <style scoped lang="scss">
-  .about {
-    text-align: center;
-  }
-  p {
-    margin-left: 70px;
-    margin-right: 70px;
-    color: white;
-    font-weight: bold;
-  }
-  #avatar {
-    max-width: 75%;
-    color: white;
-  }
+.about {
+  text-align: center;
+}
+p {
+  margin-left: 70px;
+  margin-right: 70px;
+  color: white;
+  font-weight: bold;
+}
+#avatar {
+  max-width: 75%;
+  color: white;
+}
 </style>
