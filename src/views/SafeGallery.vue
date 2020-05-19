@@ -80,6 +80,11 @@
         <b-col class="title-col" id="refsheets">Reference Sheets</b-col>
       </b-row>
       <b-row>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/refs/ref11.jpg')" fluid />
+        </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-img :src="require('@/assets/sfwgallery/refs/ref10.jpg')" fluid />
       </b-row>
       <b-row class="mt-sm-4">
