@@ -25,19 +25,22 @@
       </b-row>
       <b-row>
         <b-col>
-          <b-img :src="require('@/assets/sfwgallery/icons/icon1.jpg')" fluid />
+          <b-img :src="require('@/assets/sfwgallery/icons/icon17.png')" fluid />
         </b-col>
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon16.jpg')" fluid />
         </b-col>
         <b-col>
-          <b-img :src="require('@/assets/sfwgallery/icons/icon2.jpg')" fluid />
+          <b-img :src="require('@/assets/sfwgallery/icons/icon1.jpg')" fluid />
         </b-col>
         <b-col>
-          <b-img :src="require('@/assets/sfwgallery/icons/icon3.jpg')" fluid />
+          <b-img :src="require('@/assets/sfwgallery/icons/icon2.jpg')" fluid />
         </b-col>
       </b-row>
       <b-row class="mt-sm-4">
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/icons/icon3.jpg')" fluid />
+        </b-col>
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon4.jpg')" fluid />
         </b-col>
@@ -47,11 +50,11 @@
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon15.jpg')" fluid />
         </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon8.png')" fluid />
         </b-col>
-      </b-row>
-      <b-row class="mt-sm-4">
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon9.jpg')" fluid />
         </b-col>
@@ -61,13 +64,10 @@
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon13.png')" fluid />
         </b-col>
-        <b-col>
-          <b-img :src="require('@/assets/sfwgallery/icons/icon14.png')" fluid />
-        </b-col>
       </b-row>
       <b-row class="mt-sm-4">
         <b-col>
-          <b-img :src="require('@/assets/sfwgallery/icons/icon7.png')" fluid />
+          <b-img :src="require('@/assets/sfwgallery/icons/icon14.png')" fluid />
         </b-col>
         <b-col cols="6">
           <b-img :src="require('@/assets/sfwgallery/icons/icon11.jpg')" fluid />
@@ -75,6 +75,13 @@
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon6.png')" fluid />
         </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
+        <b-col></b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/icons/icon7.png')" fluid />
+        </b-col>
+        <b-col></b-col>
       </b-row>
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="refsheets">Reference Sheets</b-col>
