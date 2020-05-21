@@ -7,6 +7,16 @@
       <h1 id="title">18+ Gallery</h1>
       <b-container id="nsfwconainter">
         <b-row class="pb-3">
+          <b-col></b-col>
+          <b-col cols="6">
+            <b-img
+              :src="require('@/assets/nsfwgallery/nsfw10.png')"
+              fluid
+              />
+          </b-col>
+          <b-col></b-col>
+        </b-row>
+        <b-row class="pb-3">
           <b-col>
             <b-img
               :src="require('@/assets/nsfwgallery/nsfw1.png')"

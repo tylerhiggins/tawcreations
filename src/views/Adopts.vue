@@ -23,7 +23,7 @@
           >
         </b-col>
         <b-col>
-          <h4 class="adopt-desc">Mystery Egg Adopts! (Only 3 Left!): $5</h4>
+          <h4 class="adopt-desc">Mystery Egg Adopts! (Only 1 Left!): $5</h4>
           <b-img
             class="adopt-img"
             :src="require('@/assets/adopts/eggadopts.png')"
