@@ -29,6 +29,10 @@
               >Fursuits! (Coming Soon!)</b-dropdown-item
             >
           </b-nav-item-dropdown>
+          <b-nav-item-dropdown class="nav_drop" text="About">
+            <b-dropdown-item to="/about">About Me</b-dropdown-item>
+            <b-dropdown-item to="/tos">Terms of Service(TOS)</b-dropdown-item>
+          </b-nav-item-dropdown>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
