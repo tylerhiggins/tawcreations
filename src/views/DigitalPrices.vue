@@ -113,6 +113,14 @@
         :src="require('@/assets/prices/sticker_ex.png')"
       ></b-img>
     </div>
+    <div class="ex_section">
+      <p><font-awesome-icon id="tele" size="lg" :icon="['fab','telegram']"></font-awesome-icon>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span>Telegram Stickers</span> - $10 Each</p>
+      <b-img
+              class="example"
+              :src="require('@/assets/prices/tele_sticker_ex.png')"
+      ></b-img>
+    </div>
   </div>
 </template>
 
@@ -189,4 +197,8 @@ span {
 p {
   margin-top: 10px;
 }
+  #tele {
+    color: #27A6E6;
+    background-color: white;
+  }
 </style>
