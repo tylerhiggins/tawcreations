@@ -88,6 +88,11 @@
       </b-row>
       <b-row>
         <b-col>
+          <b-img :src="require('@/assets/sfwgallery/refs/ref12.jpg')" fluid />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="mt-sm-4">
           <b-img :src="require('@/assets/sfwgallery/refs/ref11.jpg')" fluid />
         </b-col>
       </b-row>
