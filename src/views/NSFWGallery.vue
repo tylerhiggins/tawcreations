@@ -43,7 +43,14 @@
           </b-col>
         </b-row>
         <b-row class="pb-3">
+          <b-col>
+            <b-img :src="require('@/assets/nsfwgallery/nsfw11.jpg')" fluid />
+          </b-col>
+        </b-row>
+        <b-row class="pb-3">
+          <b-col>
           <b-img :src="require('@/assets/nsfwgallery/nsfw9.jpg')" fluid />
+          </b-col>
         </b-row>
         <b-row class="pb-3">
           <b-col>
