@@ -45,17 +45,23 @@
             <b-button
               class="featuredych"
               href="https://www.furaffinity.net/view/35707066/"
-              >More Info!</b-button
+              >More Info! (FA Link)</b-button
             >
           </span>
           <b-button class="featuredych" to="/ych">All YCH's</b-button>
         </b-carousel-slide>
         <b-carousel-slide
           :img-src="require('@/assets/home/slide4.jpg')"
-          caption="New Adopts page!"
-          text="Buy an OC!"
+          caption="Featured Adopt"
+          text="Adopt this Pretty Kitty!"
         >
-          <b-button to="/adopts">Adopts Page</b-button>
+          <span class="pr-sm-2">
+            <b-button
+                    href="https://www.furaffinity.net/view/36202023/"
+            >More Info! (FA Link)</b-button
+            >
+          </span>
+          <b-button to="/adopts">All Adopts</b-button>
         </b-carousel-slide>
       </b-carousel>
     </b-container>

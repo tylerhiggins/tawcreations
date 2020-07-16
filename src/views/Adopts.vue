@@ -34,14 +34,14 @@
             ><font-awesome-icon icon="paw" /> Chesta</a
             >
           </p>
-          <b-button href="https://www.furaffinity.net/view/36038556/"
+          <b-button href="https://www.furaffinity.net/view/36202023/"
           >Claim her here! (FA Notes)</b-button
           >
         </b-col>
       </b-row>
       <b-row class="mt-lg-5">
         <b-col>
-          <h4 class="adopt-desc">Big Batch Adopts: $10 per character!</h4>
+          <h4 class="adopt-desc">Big Batch Adopts: $10 per character! (6 Left!)</h4>
           <b-img
             class="adopt-img"
             :src="require('@/assets/adopts/big_batch.png')"
@@ -51,13 +51,13 @@
           <p>
             Species list:<br />
             &nbsp;<strike>1) Ferret</strike><br />
-            2) Squirrel<br />
+            <strike>2) Squirrel</strike><br />
             <strike>3) Otter</strike><br />
             <strike>4) Tanuki</strike><br />
-            5) Possum<br />
+            <strike>5) Possum</strike><br />
             6) Raccoon<br />
             7) Mouse<br />
-            8) Kangaroo<br />
+            <strike>8) Kangaroo</strike><br />
             9) Rabbit<br />
             10) Monkey<br />
             11) Skunk<br />

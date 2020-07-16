@@ -24,6 +24,13 @@
         <b-col class="title-col" id="icons">Icons</b-col>
       </b-row>
       <b-row>
+        <b-col></b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/icons/icon18.jpg')" fluid />
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class=mt-sm-4>
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon17.png')" fluid />
         </b-col>
@@ -493,7 +500,9 @@
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/chibi/c2.png')" fluid />
         </b-col>
-        <b-col></b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/chibi/c3.png')" fluid />
+        </b-col>
       </b-row>
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="multi">Couples/Multiple Characters</b-col>
