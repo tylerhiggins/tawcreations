@@ -5,7 +5,15 @@
     </div>
     <div id="confirmed" v-if="ofAge">
       <h1 id="title">18+ Gallery</h1>
-      <b-container id="nsfwconainter">
+      <div id="jumplinks">
+        <span style="font-weight: bold">Jump to:</span><br /><a href="#fullbody"
+      >Full Body</a
+      >&ensp;|&ensp; <a href="#refsheets">Reference Sheets</a>
+      </div>
+      <b-container id="nsfwconainter" class="mt-4">
+        <b-row class="mb-sm-2">
+          <b-col class="title-col" id="multi">Multiple Characters</b-col>
+        </b-row>
         <b-row class="pb-3">
           <b-col></b-col>
           <b-col cols="6">
@@ -15,6 +23,9 @@
               />
           </b-col>
           <b-col></b-col>
+        </b-row>
+        <b-row class="mt-lg-3 mb-sm-2">
+          <b-col class="title-col" id="fullbody">Full Body</b-col>
         </b-row>
         <b-row class="pb-3">
           <b-col>
@@ -41,6 +52,9 @@
               fluid
             ></b-img>
           </b-col>
+        </b-row>
+        <b-row class="mt-lg-3 mb-sm-2">
+          <b-col class="title-col" id="refsheets">Reference Sheets</b-col>
         </b-row>
         <b-row class="pb-3">
           <b-col>
@@ -132,5 +146,13 @@ export default {
 }
 #nsfwconainter {
   margin-bottom: 50px;
+}
+#jumplinks {
+  font-size: 16px;
+}
+.title-col {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18pt;
 }
 </style>
