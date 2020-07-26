@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <b-container>
+      <b-row>
       <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -20,12 +21,13 @@
         >
         </b-carousel-slide>
         <b-carousel-slide
-          id="discordslide"
           :img-src="require('@/assets/home/discord.jpg')"
-        >
-          <b-button id="discordbtn" href="https://discord.gg/gzm29Nr"
-            >Join my server here!</b-button
           >
+          <span class="pr-2">
+          <b-button class="discordbtn" href="#discord">Read My Reviews!</b-button>
+          </span>
+          <b-button class="discordbtn" href="https://discord.gg/tGejHWc">Join Server</b-button>
+
         </b-carousel-slide>
         <b-carousel-slide
           :img-src="require('@/assets/home/slide2.jpg')"
@@ -64,6 +66,16 @@
           <b-button to="/adopts">All Adopts</b-button>
         </b-carousel-slide>
       </b-carousel>
+      </b-row>
+      <b-row class="mt-lg-5 mb-md-2" id="discord">
+        <b-col><h1 class="text-center font-weight-bold mb-md-4">Reviews and Discord Server</h1></b-col>
+        <widgetbot
+                server="657054643699843095"
+                channel="735532848454303775"
+                width="1280"
+                height="500"
+        ></widgetbot>
+      </b-row>
     </b-container>
   </div>
 </template>
@@ -83,7 +95,7 @@ export default {
 .featuredych {
   background-color: cadetblue;
 }
-#discordbtn {
+.discordbtn {
   background-color: #8c9fff;
   font-weight: bold;
 }
