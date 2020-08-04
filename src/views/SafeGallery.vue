@@ -26,9 +26,19 @@
       <b-row>
         <b-col></b-col>
         <b-col>
-          <b-img :src="require('@/assets/sfwgallery/icons/icon18.jpg')" fluid />
+          <b-img
+            :src="require('@/assets/sfwgallery/icons/icon19.jpg')" fluid />
+        </b-col>
+        <b-col>
+          <b-img
+            :src="require('@/assets/sfwgallery/icons/icon20.jpg')" fluid />
         </b-col>
         <b-col></b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/icons/icon18.jpg')" fluid />
+        </b-col>
       </b-row>
       <b-row class=mt-sm-4>
         <b-col>
@@ -332,6 +342,13 @@
         <b-col class="title-col" id="headshots">Head Shots</b-col>
       </b-row>
       <b-row>
+        <b-col></b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/headshots/hs21.png')" fluid />
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img
             :src="require('@/assets/sfwgallery/headshots/hs4.jpg')"
