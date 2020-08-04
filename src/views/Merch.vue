@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: "merch"
+  name: "store"
 };
 </script>
 

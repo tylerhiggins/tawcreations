@@ -69,10 +69,10 @@ const routes = [
     meta: { title: "TAWCreations - 18+ YCH" }
   },
   {
-    path: "/merch",
-    name: "merch",
+    path: "/store",
+    name: "store",
     component: () => import("../views/Merch.vue"),
-    meta: { title: "TAWCreations - Merch" }
+    meta: { title: "TAWCreations - Store" }
   },
   {
     path: "*",
