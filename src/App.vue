@@ -33,7 +33,7 @@
             <b-dropdown-item to="/about">About Me</b-dropdown-item>
             <b-dropdown-item to="/tos">Terms of Service(TOS)</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item to="/merch">Store</b-nav-item>
+          <b-nav-item to="/store">Store</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>

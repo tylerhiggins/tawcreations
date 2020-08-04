@@ -24,7 +24,7 @@
             :img-src="require('@/assets/home/storeslide.jpg')"
           >
           <h3 id="storehead">Store Now Open!</h3>
-          <b-button to="/merch">Check it out here!</b-button>
+          <b-button to="/store">Check it out here!</b-button>
         </b-carousel-slide>
         <b-carousel-slide
           :img-src="require('@/assets/home/discord.jpg')"
