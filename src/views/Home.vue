@@ -15,7 +15,7 @@
         @sliding-end="onSlideEnd"
       >
         <b-carousel-slide
-          :img-src="require('@/assets/home/slide1.png')"
+          :img-src="require('@/assets/home/banner.jpg')"
           caption="Welcome to Toxic Angel Wolfy Creations!"
           text="Freelance artist and crafter."
         >
