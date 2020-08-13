@@ -526,7 +526,7 @@
       </b-row>
       <b-row>
         <b-col>
-          <b-img :src="require('@assets/sfwgallery/home/banner.jpg')" fluid />
+          <b-img :src="require('@/assets/home/banner.jpg')" fluid />
         </b-col>
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/multiple/mc2.png')" fluid />
