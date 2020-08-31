@@ -20,33 +20,11 @@
           >
         </b-col>
         <b-col>
-          <h4 class="adopt-desc">Cat Adopt - $20</h4>
-          <b-img
-                  class="adopt-img"
-                  :src="require('@/assets/adopts/catadopt.jpg')"
-                  fluid
-          ></b-img>
-          <p>
-            Description: This pretty kitty is up for adoption for $20!<br />
-            You can get a custom icon made by me for an extra $10!<br />
-            Base made by:
-            <a href="https://www.furaffinity.net/user/chesta"
-            ><font-awesome-icon icon="paw" /> Chesta</a
-            >
-          </p>
-          <b-button href="https://www.furaffinity.net/view/36202023/"
-          >Claim her here! (FA Notes)</b-button
-          >
-        </b-col>
-      </b-row>
-      <b-row class="mt-lg-5">
-        <b-col>
           <h4 class="adopt-desc">Big Batch Adopts: $10 per character! (3 Left!)</h4>
           <b-img
             class="adopt-img"
             :src="require('@/assets/adopts/big_batch.png')"
             fluid
-            style="max-width: 50%"
           ></b-img>
           <p>
             Species list:<br />
