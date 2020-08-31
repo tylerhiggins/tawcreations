@@ -41,7 +41,7 @@
       </b-row>
       <b-row class="mt-lg-5">
         <b-col>
-          <h4 class="adopt-desc">Big Batch Adopts: $10 per character! (4 Left!)</h4>
+          <h4 class="adopt-desc">Big Batch Adopts: $10 per character! (3 Left!)</h4>
           <b-img
             class="adopt-img"
             :src="require('@/assets/adopts/big_batch.png')"
@@ -59,7 +59,7 @@
             7) Mouse<br />
             <strike>8) Kangaroo</strike><br />
             9) Rabbit<br />
-            10) Monkey<br />
+            <strike>10) Monkey</strike><br />
             <strike>11) Skunk<br /></strike>
             12) Hyena<br /><br />
             I can add a custom ref sheet for an additional $30! (Feral +$15,
