@@ -13,7 +13,8 @@ import {
   faTrello,
   faGithub,
   faBootstrap,
-  faDiscord
+  faDiscord,
+    faTelegram
 } from "@fortawesome/free-brands-svg-icons";
 import { faPaw, faCoffee, faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -28,7 +29,8 @@ library.add(
   faCoffee,
   faBootstrap,
   faDiscord,
-  faHome
+  faHome,
+    faTelegram
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
