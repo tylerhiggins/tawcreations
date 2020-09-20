@@ -20,11 +20,14 @@
       | <a href="#gore">Gore</a>
     </div>
     <b-container class="mt-4 mb-5">
+      <!-- Icon Section -->
       <b-row class="mb-sm-2">
         <b-col class="title-col" id="icons">Icons</b-col>
       </b-row>
       <b-row>
-        <b-col></b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/icons/icon21.jpg')" fluid />
+        </b-col>
         <b-col>
           <b-img
             :src="require('@/assets/sfwgallery/icons/icon19.jpg')" fluid />
@@ -33,7 +36,6 @@
           <b-img
             :src="require('@/assets/sfwgallery/icons/icon20.jpg')" fluid />
         </b-col>
-        <b-col></b-col>
       </b-row>
       <b-row class="mt-sm-4">
         <b-col>
@@ -100,6 +102,7 @@
         </b-col>
         <b-col></b-col>
       </b-row>
+      <!-- refrence sheet section -->
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="refsheets">Reference Sheets</b-col>
       </b-row>
@@ -161,6 +164,7 @@
           <b-img :src="require('@/assets/sfwgallery/refs/ref9.png')" fluid />
         </b-col>
       </b-row>
+      <!-- fullbody section -->
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="fullbody">Full Body</b-col>
       </b-row>
@@ -254,6 +258,7 @@
           <b-img :src="require('@/assets/sfwgallery/fullbody/fb4.png')" fluid />
         </b-col>
       </b-row>
+      <!-- halfbody section -->
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="halfbody">Half Body</b-col>
       </b-row>
@@ -339,12 +344,16 @@
         <b-col></b-col>
       </b-row>
       <b-row class="mt-lg-3 mb-sm-2">
+        <!-- headshot section -->
         <b-col class="title-col" id="headshots">Head Shots</b-col>
       </b-row>
       <b-row>
         <b-col></b-col>
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/headshots/hs21.png')" fluid />
+        </b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/headshots/hs22.png')" fluid />
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -482,6 +491,7 @@
         <b-col></b-col><b-col></b-col>
       </b-row>
       <b-row class="mt-lg-3 mb-sm-2">
+        <!-- feral section -->
         <b-col class="title-col" id="feral">Feral</b-col>
       </b-row>
       <b-row>
@@ -508,6 +518,7 @@
         <b-col></b-col>
       </b-row>
       <b-row class="mt-lg-3 mb-sm-2">
+        <!-- chibi section -->
         <b-col class="title-col" id="chibi">Chibi</b-col>
       </b-row>
       <b-row>
@@ -521,6 +532,7 @@
           <b-img :src="require('@/assets/sfwgallery/chibi/c3.png')" fluid />
         </b-col>
       </b-row>
+      <!-- multiple characters section -->
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="multi">Couples/Multiple Characters</b-col>
       </b-row>
@@ -540,6 +552,7 @@
           <b-img :src="require('@/assets/home/slide1.png')" fluid />
         </b-col>
       </b-row>
+      <!-- realistic section -->
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="real">Realistic</b-col>
       </b-row>
@@ -550,6 +563,7 @@
         </b-col>
         <b-col></b-col>
       </b-row>
+      <!-- stickers section -->
       <b-row class="mt-lg-3 mb-sm-2">
         <b-col class="title-col" id="sticker">Stickers</b-col>
       </b-row>
