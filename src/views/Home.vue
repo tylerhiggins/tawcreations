@@ -21,6 +21,17 @@
         >
         </b-carousel-slide>
         <b-carousel-slide
+            :img-src="require('@/assets/home/haloweenych.png')"
+            caption="Special Halloween YCH!"
+            text="Any Species!"
+        >
+            <b-button
+                class="halloweenbtn"
+                href="https://www.furaffinity.net/view/38609421/"
+            >More Info! (FA Link)</b-button
+            >
+        </b-carousel-slide>
+        <b-carousel-slide
             :img-src="require('@/assets/home/storeslide.jpg')"
           >
           <h3 id="storehead">Store Now Open!</h3>
@@ -59,16 +70,10 @@
           <b-button class="featuredych" to="/ych">All YCH's</b-button>
         </b-carousel-slide>
         <b-carousel-slide
-          :img-src="require('@/assets/home/slide4.jpg')"
-          caption="Featured Adopt"
-          text="Adopt this Pretty Kitty!"
+          :img-src="require('@/assets/home/adoptslide.png')"
+          caption="Adopts Available"
+          text="Mystery Egg or Species Choice!"
         >
-          <span class="pr-sm-2">
-            <b-button
-                    href="https://www.furaffinity.net/view/36202023/"
-            >More Info! (FA Link)</b-button
-            >
-          </span>
           <b-button to="/adopts">All Adopts</b-button>
         </b-carousel-slide>
       </b-carousel>
@@ -103,6 +108,10 @@ export default {
 }
 .discordbtn {
   background-color: #8c9fff;
+  font-weight: bold;
+}
+.halloweenbtn {
+  background-color: #F76302;
   font-weight: bold;
 }
 </style>

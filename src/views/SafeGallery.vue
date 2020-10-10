@@ -171,6 +171,14 @@
       <b-row>
         <b-col>
           <b-img
+              :src="require('@/assets/sfwgallery/fullbody/fb18.jpg')"
+              fluid
+            />
+        </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
+        <b-col>
+          <b-img
             :src="require('@/assets/sfwgallery/fullbody/fb17.jpg')"
             fluid
           />
@@ -348,7 +356,12 @@
         <b-col class="title-col" id="headshots">Head Shots</b-col>
       </b-row>
       <b-row>
-        <b-col></b-col>
+        <b-col>
+          <b-img
+              :src="require('@/assets/sfwgallery/headshots/hs23.png')"
+              fluid
+          />
+        </b-col>
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/headshots/hs21.png')" fluid />
         </b-col>

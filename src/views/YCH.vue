@@ -6,11 +6,25 @@
         <p>
           What is a YCH? YCH means Your Character Here. They are commissions
           where the pose of the character is pre-made but will be drawn with
-          your character or fursona. Here are a the current YCH's I am offering.
+          your character or fursona. Here are the current YCH's I am offering.
         </p>
       </div>
       <hr />
       <b-row>
+        <b-col>
+          <h3 class="ych_title" style="color: #F76302; font-weight: bold" >Halloween Special!</h3>
+          <b-img
+              class="ychimg"
+              :src="require('@/assets/safeych/haloweenych.png')"
+              fluid
+          ></b-img>
+          <p></p>
+          <b-button id="halloweenbtn" href="https://www.furaffinity.net/view/38609421/"
+          >More Info</b-button
+          >
+        </b-col>
+      </b-row>
+      <b-row class="mt-md-4">
         <b-col>
           <h4 class="ych_title">Sergal or Shark Headshot Icon - $10</h4>
           <b-img
@@ -71,5 +85,9 @@ hr {
 }
 .ych_notes {
   color: red;
+}
+#halloweenbtn {
+  background-color: #F76302;
+  font-weight: bold;
 }
 </style>
