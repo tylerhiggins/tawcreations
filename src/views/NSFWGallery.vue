@@ -56,6 +56,22 @@
         <b-row class="mt-lg-3 mb-sm-2">
           <b-col class="title-col" id="refsheets">Reference Sheets</b-col>
         </b-row>
+        <b-row>
+          <b-col>
+            <b-img
+              :src="require('@/assets/nsfwgallery/nsfw13.jpg')"
+              fluid
+              />
+          </b-col>
+        </b-row>
+        <b-row class="pb-3">
+          <b-col>
+            <b-img
+              :src="require('@/assets/nsfwgallery/nsfw12.jpg')"
+              fluid
+              />
+          </b-col>
+        </b-row>
         <b-row class="pb-3">
           <b-col>
             <b-img :src="require('@/assets/nsfwgallery/nsfw11.jpg')" fluid />

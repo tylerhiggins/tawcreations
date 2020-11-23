@@ -108,6 +108,14 @@
       </b-row>
       <b-row>
         <b-col>
+          <b-img
+              :src="require('@/assets/sfwgallery/refs/ref13.jpg')"
+              fluid
+          />
+        </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
+        <b-col>
           <b-img :src="require('@/assets/sfwgallery/refs/ref12.jpg')" fluid />
         </b-col>
       </b-row>
@@ -169,6 +177,16 @@
         <b-col class="title-col" id="fullbody">Full Body</b-col>
       </b-row>
       <b-row>
+        <b-col></b-col>
+        <b-col>
+          <b-img
+            :src="require('@/assets/sfwgallery/fullbody/fb20.png')"
+            fluid
+            />
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img
             :src="require('@/assets/sfwgallery/fullbody/fb19.jpg')"
