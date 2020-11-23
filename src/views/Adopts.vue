@@ -23,23 +23,11 @@
           <h4 class="adopt-desc">Big Batch Adopts: $10 per character! (3 Left!)</h4>
           <b-img
             class="adopt-img"
-            :src="require('@/assets/adopts/big_batch.png')"
+            :src="require('@/assets/adopts/batch1.png')"
             fluid
           ></b-img>
           <p>
-            Species list:<br />
-            &nbsp;<strike>1) Ferret</strike><br />
-            <strike>2) Squirrel</strike><br />
-            <strike>3) Otter</strike><br />
-            <strike>4) Tanuki</strike><br />
-            <strike>5) Possum</strike><br />
-            <strike>6) Raccoon<br /></strike>
-            7) Mouse<br />
-            <strike>8) Kangaroo</strike><br />
-            9) Rabbit<br />
-            <strike>10) Monkey</strike><br />
-            <strike>11) Skunk<br /></strike>
-            12) Hyena<br /><br />
+            Species left: Mouse, Hyena, Rabbit<br /><br />
             I can add a custom ref sheet for an additional $30! (Feral +$15,
             Adult Version(Id Required) +$25).<br />
             These adopts were colored using a P2U base by:
@@ -49,6 +37,28 @@
           </p>
           <b-button href="https://www.furaffinity.net/view/36345662/"
             >Claim Here! (FA Notes)</b-button
+          >
+        </b-col>
+      </b-row>
+      <b-row class="mt-lg-4">
+        <b-col>
+          <h4 class="adopt-desc">Lava Cheetah: $45</h4>
+          <b-img
+              class="adopt-img"
+              style="max-width: 40%"
+              :src="require('@/assets/adopts/lava_cheetah.jpg')"
+              fluid
+          ></b-img>
+          <p>
+            Adopt this firey-quick Cheetah for only $45!<br />
+            Additional Options: <br />
+            Icon: +$10, General Reference Sheet: +$30, Adult Reference Sheet(ID Required): +$25 <br />
+            Base by <a href="https://www.furaffinity.net/user/chesta"
+            ><font-awesome-icon icon="paw" /> Chesta</a
+            >
+          </p>
+          <b-button href="https://www.furaffinity.net/view/39248112/"
+          >Claim Here! (FA Notes)</b-button
           >
         </b-col>
       </b-row>

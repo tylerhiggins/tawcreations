@@ -10,20 +10,6 @@
         </p>
       </div>
       <hr />
-      <b-row>
-        <b-col>
-          <h3 class="ych_title" style="color: #F76302; font-weight: bold" >Halloween Special!</h3>
-          <b-img
-              class="ychimg"
-              :src="require('@/assets/safeych/haloweenych.png')"
-              fluid
-          ></b-img>
-          <p></p>
-          <b-button id="halloweenbtn" href="https://www.furaffinity.net/view/38609421/"
-          >More Info</b-button
-          >
-        </b-col>
-      </b-row>
       <b-row class="mt-md-4">
         <b-col>
           <h4 class="ych_title">Sergal or Shark Headshot Icon - $10</h4>
@@ -48,6 +34,7 @@
           <b-img
             class="ychimg"
             :src="require('@/assets/safeych/dadych.jpg')"
+            style="max-width: 75%"
             fluid
           ></b-img>
           <p class="ych_description">
@@ -56,6 +43,21 @@
           </p>
           <b-button href="https://www.furaffinity.net/view/36216725/"
             >More Info</b-button
+          >
+        </b-col>
+      </b-row>
+      <b-row class="mt-lg-4">
+        <b-col>
+          <h4 class="ych_title">Trick-or-Treat!</h4>
+          <b-img
+              class="ychimg"
+              :src="require('@/assets/safeych/haloweenych.png')"
+              style="max-width: 40%"
+              fluid
+          ></b-img>
+          <p></p>
+          <b-button href="https://www.furaffinity.net/view/38609421/"
+          >More Info</b-button
           >
         </b-col>
       </b-row>

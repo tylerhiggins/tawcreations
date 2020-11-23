@@ -21,13 +21,11 @@
         >
         </b-carousel-slide>
         <b-carousel-slide
-            :img-src="require('@/assets/home/haloweenych.png')"
-            caption="Special Halloween YCH!"
-            text="Any Species!"
+            :img-src="require('@/assets/home/raffle.jpg')"
+            caption="Closes on November 25th!"
         >
             <b-button
-                class="halloweenbtn"
-                href="https://www.furaffinity.net/view/38609421/"
+                href="https://www.furaffinity.net/view/39211139/"
             >More Info! (FA Link)</b-button
             >
         </b-carousel-slide>
@@ -70,10 +68,16 @@
           <b-button class="featuredych" to="/ych">All YCH's</b-button>
         </b-carousel-slide>
         <b-carousel-slide
-          :img-src="require('@/assets/home/adoptslide.png')"
-          caption="Adopts Available"
-          text="Mystery Egg or Species Choice!"
+          :img-src="require('@/assets/home/lava_cheetahslide.jpg')"
+          caption="New Lava Cheetah Adopt!"
+          text="Base Price: $45"
         >
+          <span class="pr-sm-2">
+            <b-button
+                href="https://www.furaffinity.net/view/39248112/"
+            >More Info! (FA Link)</b-button
+            >
+          </span>
           <b-button to="/adopts">All Adopts</b-button>
         </b-carousel-slide>
       </b-carousel>
