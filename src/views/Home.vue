@@ -21,15 +21,6 @@
         >
         </b-carousel-slide>
         <b-carousel-slide
-            :img-src="require('@/assets/home/raffle.jpg')"
-            caption="Closes on November 25th!"
-        >
-            <b-button
-                href="https://www.furaffinity.net/view/39211139/"
-            >More Info! (FA Link)</b-button
-            >
-        </b-carousel-slide>
-        <b-carousel-slide
             :img-src="require('@/assets/home/storeslide.jpg')"
           >
           <h3 id="storehead">Store Now Open!</h3>
