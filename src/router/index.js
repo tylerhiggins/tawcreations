@@ -75,6 +75,12 @@ const routes = [
     meta: { title: "TAWCreations - Store" }
   },
   {
+    path: "/craftprices",
+    name: "craftprices",
+    component: () => import("../views/CraftPrices.vue"),
+    meta: { title: "TAWCreations - Craft Prices"}
+  },
+  {
     path: "*",
     component: () => import("../views/PageNotFound.vue"),
     meta: { title: "TAWCreations - 404" }

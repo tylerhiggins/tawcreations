@@ -14,6 +14,9 @@
             <b-dropdown-item to="/traditionalprices"
               >Traditional</b-dropdown-item
             >
+            <b-dropdown-item to="/craftprices">Crafts</b-dropdown-item>
+            <b-dropdown-item to="/#" disabled>Fursuits (Coming Soon!)</b-dropdown-item>
+            <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/adopts">Adopts</b-dropdown-item>
             <b-dropdown-item to="/ych">YCH Commissions</b-dropdown-item>
             <b-dropdown-item to="/nsfwych">18+ YCH</b-dropdown-item>
