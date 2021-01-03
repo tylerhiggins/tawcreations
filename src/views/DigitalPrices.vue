@@ -18,104 +18,104 @@
     <h1>Prices</h1>
     <h3>Digital Artwork Prices:</h3>
     <div class="ex_section">
-      <p><span>Reference Sheet</span> - Starting at $30</p>
+      <p><span>Reference Sheet</span> - Starting at $50<br>
+       Includes 3 poses, character bio, a simple background, character name,
+        and color palette<br><br>
+      Addons: Additional pose(s): +$30 each, Chibi: +$25, NSFW: +$40, Realistic: +$20,
+      Clothing +$35, Mate/Partner: +$30 each</p>
       <b-img
         class="ref-example"
         :src="require('@/assets/prices/ref_example.png')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Fullbody</span> - Starting at $25</p>
+      <p><span>Fullbody</span> - Starting at $40<br>
+      Includes one character and a simple background.<br><br>
+      Addons: Complex background: +$25, NSFW: +$40, Clothing +$35</p>
       <b-img
         class="ref-example"
-        :src="require('@/assets/prices/fullb_example.jpg')"
+        :src="require('@/assets/prices/fullb_example.png')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Halfbody</span> - Starting at $20</p>
+      <p><span>Halfbody</span> - Starting at $35<br>
+        Includes a simple background.<br><br>
+        Addons: Complex background +$25, NSFW +$20, Clothing +$15</p>
       <b-img
         class="example"
         :src="require('@/assets/prices/halfb_example.png')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Headshot</span> - Starting at $15</p>
+      <p><span>Headshot</span> - Starting at $25<br>
+        Includes a simple background.<br><br>
+        Addons: Complex background +$25, NSFW: +$10
+      </p>
       <b-img
         class="example"
         :src="require('@/assets/prices/head_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Couples</span> - Starting at $30</p>
+      <p><span>Couples</span> - Starting at $80<br>
+      Includes two fullbody characters and a simple background.<br><br>
+      Addons: Additional Character(s) +$30 each, Complex background +$25, NSFW +$40,
+      Clothing +$35</p>
       <b-img
         class="example"
         :src="require('@/assets/prices/couples_ex.jpg')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <div id="noauth" v-if="!inStorage">
-        <confirmation :coming-from="'prices'"></confirmation>
-      </div>
-      <div id="auth" v-if="ofAge">
-        <p><span>NSFW (ID required)</span> - Starting at $25<br /></p>
-        <b-img
-          class="example"
-          :src="require('@/assets/nsfwgallery/nsfw4.png')"
-        />
-      </div>
-      <div id="no-selected" v-if="inStorage && !ofAge"></div>
-    </div>
-    <div class="ex_section">
-      <p><span>Gore</span> - Starting at $20</p>
+      <p><span>Feral</span> - Starting at $40<br>
+      Includes a simple background.<br><br>
+        Addons: Additional Character(s) +$30 each, Complex background +$25, NSFW +$40,
+        Clothing +$15
+      </p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/gore_ex.png')"
+        :src="require('@/assets/prices/feral_ex.jpg')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Feral</span> - Starting at $15</p>
-      <b-img
-        class="example"
-        :src="require('@/assets/prices/feral_ex.png')"
-      ></b-img>
-    </div>
-    <div class="ex_section">
-      <p><span>Realistic</span> - Starting at $20</p>
-      <b-img
-        class="example"
-        :src="require('@/assets/prices/realistic_ex.png')"
-      ></b-img>
-    </div>
-    <div class="ex_section">
-      <p><span>Chibi</span> - Starting at $10</p>
+      <p><span>Chibi</span> - Starting at $25<br>
+      Includes a simple background<br><br>
+      Addons: Additional Character(s): +$15 each, Complex Background: +$25, NSFW +$10,
+      Clothing +$10</p>
       <b-img
         class="example"
         :src="require('@/assets/prices/chibi_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Lineart</span> - Starting at $10</p>
+      <p><span>Lineart</span> - Starting at $20<br>
+      Includes one character of any type(headshot, halfbody, fullbody, etc.)<br><br>
+      Addons: Additional Character(s) +$10 each, NSFW +$10</p>
     </div>
     <div class="ex_section">
-      <p><span>Icons</span> - Starting at $10</p>
+      <p><span>Icons</span> - Starting at $15<br>
+      Includes one character with a simple background and a high res version.<br><br>
+      Addons: Additional Character(s): +$10 each (includes both separate and combined image),
+        Complex Background: +$20</p>
       <b-img
         class="example"
         :src="require('@/assets/prices/icon_ex.jpg')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Animated Icon</span> - Starting at $15</p>
-    </div>
-    <div class="ex_section">
-      <p><span>Stickers</span> - Small: $1 Medium: $2 Large $5</p>
+      <p><span>Stickers</span> - Small: $5 each, Medium: $10 each, Large $20 each<br>
+      Includes one character and any type (headshot, halfbody, fullbody, etc.)<br><br>
+      Addons: NSFW +$10</p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/sticker_ex.png')"
+        :src="require('@/assets/prices/sticker_ex.jpg')"
       ></b-img>
     </div>
     <div class="ex_section">
       <p><font-awesome-icon id="tele" size="lg" :icon="['fab','telegram']"></font-awesome-icon>
-        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span>Telegram Stickers</span> - $10 Each</p>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span>Telegram Stickers</span> - $10 Each<br>
+        Includes one character and any type (headshot, halfbody, fullbody, etc.)<br><br>
+        Addons: NSFW +$10</p>
       <b-img
               class="example"
               :src="require('@/assets/prices/tele_sticker_ex.png')"
@@ -125,36 +125,16 @@
 </template>
 
 <script>
-import confirmation from "../components/Confirmation.vue";
 export default {
-  components: {
-    confirmation
-  },
   name: "digitalprices",
   data() {
     return {
       dismissSecs: 10,
       dismissCountdown: 0,
-      ofAge: false,
-      inStorage: false
     };
   },
   created: function() {
     this.showAlert();
-    let confirmStr = localStorage.getItem("confirm");
-    if (confirmStr !== null) {
-      this.inStorage = true;
-      let confirm = JSON.parse(confirmStr);
-      let date = new Date();
-      if (date.getTime() > confirm.expDate) {
-        localStorage.removeItem("confirm");
-        this.inStorage = false;
-      } else {
-        this.ofAge = confirm.ofAge;
-      }
-    } else {
-      this.inStorage = false;
-    }
   },
   methods: {
     countDownChanged(dismissCountDown) {
