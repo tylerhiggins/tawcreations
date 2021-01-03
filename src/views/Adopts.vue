@@ -20,22 +20,21 @@
           >
         </b-col>
         <b-col>
-          <h4 class="adopt-desc">Big Batch Adopts: $10 per character! (3 Left!)</h4>
+          <h4 class="adopt-desc">Mouse Adopt: $5</h4>
           <b-img
             class="adopt-img"
-            :src="require('@/assets/adopts/batch1.png')"
+            :src="require('@/assets/adopts/mouse.png')"
             fluid
           ></b-img>
           <p>
-            Species left: Mouse, Hyena, Rabbit<br /><br />
-            I can add a custom ref sheet for an additional $30! (Feral +$15,
-            Adult Version(Id Required) +$25).<br />
-            These adopts were colored using a P2U base by:
+            I can add a custom ref sheet for an additional $50! (Feral +$25,
+            Adult Version(Id Required) +$40).<br />
+            This adopt is colored using a P2U base by:
             <a href="https://www.furaffinity.net/user/gatorbite"
               ><font-awesome-icon icon="paw" /> gatorbite</a
             >
           </p>
-          <b-button href="https://www.furaffinity.net/view/36345662/"
+          <b-button href="https://www.furaffinity.net/view/39930460/"
             >Claim Here! (FA Notes)</b-button
           >
         </b-col>
@@ -52,7 +51,7 @@
           <p>
             Adopt this firey-quick Cheetah for only $45!<br />
             Additional Options: <br />
-            Icon: +$10, General Reference Sheet: +$30, Adult Reference Sheet(ID Required): +$25 <br />
+            Icon: +$10, General Reference Sheet: +$50, Adult Reference Sheet(ID Required): +$40 <br />
             Base by <a href="https://www.furaffinity.net/user/chesta"
             ><font-awesome-icon icon="paw" /> Chesta</a
             >
