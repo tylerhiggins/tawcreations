@@ -22,7 +22,7 @@
        Includes 3 poses, character bio, a simple background, character name,
         and color palette<br><br>
       Addons: Additional pose(s): +$30 each, Chibi: +$25, NSFW: +$40, Realistic: +$20,
-      Clothing +$35, Mate/Partner: +$30 each</p>
+      Clothing +$35, Mate/Partner: +$30 each, Headshot on reference: +$25</p>
       <b-img
         class="ref-example"
         :src="require('@/assets/prices/ref_example.png')"

@@ -4,6 +4,27 @@
     <b-container id="adopt-table">
       <b-row>
         <b-col>
+          <h4 class="adopt-desc">Custom Adopts: Starting at $40</h4>
+          <b-img
+            class="adopt-img"
+            :src="require('@/assets/adopts/custom_ex.jpg')"
+            style="max-width: 40%"
+            fluid
+            ></b-img>
+          <p>
+            Comes with a simple design, can be made on a base or my own art.
+            Complex designs are an additional $20.<br>
+            Base by <a href="https://www.furaffinity.net/user/chesta"
+          ><font-awesome-icon icon="paw" /> Chesta</a
+          >
+          </p>
+          <b-button href="https://www.furaffinity.net/view/39977781/"
+          >More Info</b-button
+          >
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
           <h4 class="adopt-desc">Mystery Egg Adopts! (Only 1 Left!): $5</h4>
           <b-img
             class="adopt-img"

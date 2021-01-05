@@ -585,6 +585,15 @@
         <b-col class="title-col" id="multi">Couples/Multiple Characters</b-col>
       </b-row>
       <b-row>
+      <b-col>
+        <b-img
+            :src="require('@/assets/sfwgallery/multiple/mc3.png')"
+            fluid
+        />
+      </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img :src="require('@/assets/home/banner.jpg')" fluid />
         </b-col>
