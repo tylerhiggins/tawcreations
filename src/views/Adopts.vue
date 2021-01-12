@@ -23,34 +23,12 @@
           >
         </b-col>
         <b-col>
-          <h4 class="adopt-desc">Lava Cheetah: $45</h4>
-          <b-img
-              class="adopt-img"
-              :src="require('@/assets/adopts/lava_cheetah.jpg')"
-              style="max-width: 75%"
-              fluid
-          ></b-img>
-          <p>
-            Adopt this firey-quick Cheetah for only $45!<br />
-            Additional Options: <br />
-            Icon: +$10, General Reference Sheet: +$50, Adult Reference Sheet(ID Required): +$40 <br />
-            Base by <a href="https://www.furaffinity.net/user/chesta"
-          ><font-awesome-icon icon="paw" /> Chesta</a
-          >
-          </p>
-          <b-button href="https://www.furaffinity.net/view/39248112/"
-          >Claim Here! (FA Notes)</b-button
-          >
-        </b-col>
-      </b-row>
-      <b-row class="mt-md-4">
-        <b-col>
           <h4 class="adopt-desc">Mystery Egg Adopts! (Only 1 Left!): $5</h4>
           <b-img
-            class="adopt-img"
-            :src="require('@/assets/adopts/eggadopts.png')"
-            style="max-width: 40%"
-            fluid
+              class="adopt-img"
+              :src="require('@/assets/adopts/eggadopts.png')"
+              style="max-width: 75%"
+              fluid
           ></b-img>
           <p>
             Choose an egg and you will receive a mystery character reference
@@ -58,7 +36,7 @@
             Price is $5 per egg, or egg with head shot commission for $15!
           </p>
           <b-button href="https://www.furaffinity.net/view/34595548/"
-            >Claim Here! (FA Notes)</b-button
+          >Claim Here! (FA Notes)</b-button
           >
         </b-col>
       </b-row>
