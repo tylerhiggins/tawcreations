@@ -26,6 +26,16 @@
         <b-col class="title-col" id="icons">Icons</b-col>
       </b-row>
       <b-row>
+        <b-col></b-col>
+        <b-col>
+          <b-img
+              :src="require('@/assets/sfwgallery/icons/icon22.jpg')"
+               fluid
+              />
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/icons/icon21.jpg')" fluid />
         </b-col>
@@ -108,6 +118,22 @@
         <b-col class="title-col" id="refsheets">Reference Sheets</b-col>
       </b-row>
       <b-row>
+        <b-col>
+          <b-img
+              :src="require('@/assets/sfwgallery/refs/ref15.jpg')"
+              fluid
+          />
+        </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
+        <b-col>
+          <b-img
+              :src="require('@/assets/sfwgallery/refs/ref14.jpg')"
+              fluid
+          />
+        </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img
               :src="require('@/assets/sfwgallery/refs/ref13.jpg')"
@@ -296,6 +322,16 @@
         <b-col class="title-col" id="halfbody">Half Body</b-col>
       </b-row>
       <b-row>
+        <b-col></b-col>
+        <b-col>
+          <b-img
+            :src="require('@/assets/sfwgallery/halfbody/hb17.jpg')"
+            fluid
+            ></b-img>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
         <b-col>
           <b-img
             :src="require('@/assets/sfwgallery/halfbody/hb16.jpg')"
@@ -544,6 +580,22 @@
       </b-row>
       <b-row>
         <b-col>
+          <b-img :src="require('@/assets/sfwgallery/feral/f5.png')" fluid />
+        </b-col>
+        <b-col>
+          <b-col>
+            <b-img
+                :src="require('@/assets/sfwgallery/feral/f8.jpg')"
+                fluid
+            />
+          </b-col>
+        </b-col>
+        <b-col>
+          <b-img :src="require('@/assets/sfwgallery/feral/f6.png')" fluid />
+        </b-col>
+      </b-row>
+      <b-row class="mt-sm-4">
+        <b-col>
           <b-img :src="require('@/assets/sfwgallery/feral/f1.png')" fluid />
         </b-col>
         <b-col>
@@ -552,16 +604,11 @@
         <b-col>
           <b-img :src="require('@/assets/sfwgallery/feral/f3.png')" fluid />
         </b-col>
-        <b-col>
-          <b-img :src="require('@/assets/sfwgallery/feral/f4.png')" fluid />
-        </b-col>
       </b-row>
       <b-row class="mt-sm-4">
+        <b-col></b-col>
         <b-col>
-          <b-img :src="require('@/assets/sfwgallery/feral/f5.png')" fluid />
-        </b-col>
-        <b-col>
-          <b-img :src="require('@/assets/sfwgallery/feral/f6.png')" fluid />
+          <b-img :src="require('@/assets/sfwgallery/feral/f4.png')" fluid />
         </b-col>
         <b-col></b-col>
       </b-row>

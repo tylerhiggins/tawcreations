@@ -58,6 +58,13 @@
         </b-row>
         <b-row>
           <b-col>
+            <b-img :src="require('@/assets/nsfwgallery/nsfw14.jpg')"
+                   fluid
+            />
+          </b-col>
+        </b-row>
+        <b-row class="pb-3">
+          <b-col>
             <b-img
               :src="require('@/assets/nsfwgallery/nsfw13.jpg')"
               fluid
