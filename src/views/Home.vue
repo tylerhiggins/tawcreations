@@ -58,19 +58,6 @@
           </span>
           <b-button class="featuredych" to="/ych">All YCH's</b-button>
         </b-carousel-slide>
-        <b-carousel-slide
-          :img-src="require('@/assets/home/lava_cheetahslide.jpg')"
-          caption="New Lava Cheetah Adopt!"
-          text="Base Price: $45"
-        >
-          <span class="pr-sm-2">
-            <b-button
-                href="https://www.furaffinity.net/view/39248112/"
-            >More Info! (FA Link)</b-button
-            >
-          </span>
-          <b-button to="/adopts">All Adopts</b-button>
-        </b-carousel-slide>
       </b-carousel>
       </b-row>
       <b-row class="mt-lg-5 mb-md-2" id="discord">
