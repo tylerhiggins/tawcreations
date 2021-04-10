@@ -81,6 +81,12 @@ const routes = [
     meta: { title: "TAWCreations - Craft Prices"}
   },
   {
+    path: "/orderconfirm",
+    name: "orderconfirm",
+    component: () => import("../views/OrderConfirm.vue"),
+    meta: { title: "TAWCreations - Order Placed Confirmation"}
+  },
+  {
     path: "*",
     component: () => import("../views/PageNotFound.vue"),
     meta: { title: "TAWCreations - 404" }

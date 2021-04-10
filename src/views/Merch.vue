@@ -4,22 +4,62 @@
     <b-container>
       <b-row>
         <b-col>
-          <h3>Orca-Puppy stickers Pre-order</h3>
+          <h3>Orca-Puppy Stickers</h3>
           <b-img
-              class="onlyimg"
+              class="itm-img"
             :src="require('@/assets/merch/orca_pups.jpg')"
             fluid
           >
           </b-img>
-          <p class="desc mt-sm-3"><span class="desctext">Full sticker set (image above):</span> $5 + shipping<br>
-            <span class="desctext">Individual sticker(s):</span> $1 each + shipping<br>
-            <span class="desctext">Vinyl Car Decals:</span> $10 individual / $20 set + shipping<br>
-            <span class="desctext">Additional Details:</span> To pre-order, the preferred method is through Furaffinity via
-           notes.  Alternatively, you can e-mail me.</p>
-          <b-button class="mr-sm-2" href="https://www.furaffinity.net/newpm/toxicangelwolfy/">Note me on FA (Preferred)</b-button>
-          <b-button href="mailto:toxicangelwolfycreations@gmail.com?subject=Orca-Puppy Sticker Pre-Order">
-            E-mail Me
-          </b-button>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col align="center" class="mt-md-2">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="T28SKHYAXSKNL">
+            <table>
+              <tr><td><input type="hidden" name="on0" value="Sticker Type">Sticker Type</td></tr><tr><td><select name="os0">
+              <option value="Individual Sticker">Individual Sticker $1.00 USD</option>
+              <option value="Sticker Sheet">Sticker Sheet $5.00 USD</option>
+              <option value="Vinyl Car Decal Ind.">Vinyl Car Decal Ind. $10.00 USD</option>
+              <option value="Vinyl Car Decal Set">Vinyl Car Decal Set $20.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </b-col>
+      </b-row>
+      <b-row style="margin-top: 20px">
+        <b-col>
+          <h3>Easter Stickers (Limited Time!!!)</h3>
+          <b-img
+              class="itm-img"
+              :src="require('@/assets/merch/easter_stickers.png')"
+              fluid
+          >
+          </b-img>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col align="center" class="mt-md-2">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="RAS327LPL56UL">
+            <table>
+              <tr><td><input type="hidden" name="on0" value="Sticker Type">Sticker Type</td></tr><tr><td><select name="os0">
+              <option value="Individual Sticker">Individual Sticker $1.00 USD</option>
+              <option value="Sticker Sheet">Sticker Sheet $5.00 USD</option>
+              <option value="Vinyl Car Decal Ind.">Vinyl Car Decal Ind. $10.00 USD</option>
+              <option value="Vinyl Car Decal Set">Vinyl Car Decal Set $20.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
         </b-col>
       </b-row>
     </b-container>
@@ -36,8 +76,8 @@ export default {
 .merch {
   text-align: center;
 }
-.onlyimg {
-  max-width: 40%;
+.itm-img {
+  max-width: 75%;
 }
 .desc {
   font-size: 20px;
