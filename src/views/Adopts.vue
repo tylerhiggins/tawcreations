@@ -3,7 +3,7 @@
     <h1>Current Adopts!</h1>
     <b-container id="adopt-table">
       <b-row>
-        <b-col>
+        <b-col align="center">
           <h4 class="adopt-desc">Custom Adopts: Starting at $40</h4>
           <b-img
             class="adopt-img"
@@ -16,11 +16,23 @@
             Complex designs are an additional $20.<br>
             Base by <a href="https://www.furaffinity.net/user/chesta"
           ><font-awesome-icon icon="paw" /> Chesta</a
-          >
+          ><br>
+            <span style="color: red">IMPORTANT: PLEASE PROVIDE DESCRIPTION AFTER PAYMENT!!!!</span>
           </p>
-          <b-button href="https://www.furaffinity.net/view/39977781/"
-          >More Info</b-button
-          >
+          <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="N4U8ARBUUV9VQ">
+            <table>
+              <tr><td><input type="hidden" name="on0" value="Adopt Type">Adopt Type</td></tr><tr><td><select name="os0">
+              <option value="Basic Adopt">Basic Adopt $40.00 USD</option>
+              <option value="Complex Adopt">Complex Adopt $60.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+
         </b-col>
         <b-col>
           <h4 class="adopt-desc">Mystery Egg Adopts! (Only 1 Left!): $5</h4>
