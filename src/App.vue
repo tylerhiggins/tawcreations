@@ -104,8 +104,8 @@
             <b-th variant="danger"
               ><span id="artstatus">Art: Closed</span></b-th
             >
-            <b-th variant="success"
-              ><span id="craftstatus">Crafts: Open!</span></b-th
+            <b-th variant="danger"
+              ><span id="craftstatus">Crafts: Closed</span></b-th
             >
             <b-th variant="danger"
               ><span id="fsstatus">Fursuits: Closed</span></b-th
