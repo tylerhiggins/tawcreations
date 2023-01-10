@@ -121,7 +121,7 @@
           <b-col>
             <div class="mobileLinks kofiLink text-center">
               <a href="https://ko-fi.com/toxicangelwolfycreations">
-                Buy me a coffee!
+                Buy me a KoFi!
                 <font-awesome-icon size="lg" icon="coffee" />
               </a>
             </div>
