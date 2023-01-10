@@ -25,7 +25,7 @@
             For Sexually Explicit (NSFW) & GORE commissions involving someone elses Original Character(s) (OC) 
             I will need their written permision as well as their proof of legal age (18+).<br><br>
             For artwork that is shipped: I will provide a tracking number (if shipping in the U.S.)
-            and provide free shipping for any at-convention artwork that requires it.
+            and provide free shipping for any at-convention artwork that requires it.<br><br>
             For online commissions, you <span>MUST</span> pay full shipping costs. If art gets lost in
             the mail, you can get your art re-shipped for half of the commission cost.<br><br>
             The only acceptable forms of payment for online commissions are PayPal or KoFi donations.<br><br>
@@ -35,7 +35,8 @@
             you and refuse any future commissions/requests/trades from you!<br><br>
             Digital artwork may take up to one month to complete, and Traditional artwork up to two weeks.<br><br>
             I will not start on your commission until payment is made in full.<br><br>
-            Full refunds will only be made if I have not started your commission.<br><br>
+            Full refunds will only be made if I have not started your commission. If I have already started your 
+            commission, a partial refund will be made based on the progress of the artwork.<br><br>
             You <span>MUST</span> credit me as the artist for any art you post on any website or social
             media page!<br><br>
             I will not accept any partial payments for any artwork <span>NO EXCEPTIONS</span>!
