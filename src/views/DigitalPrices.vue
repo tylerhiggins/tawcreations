@@ -69,7 +69,7 @@
     <div class="ex_section">
       <p><span>Feral</span> - Starting at $40<br>
       Includes a simple background.<br><br>
-        Addons: Additional Character(s) +$30 each, Complex background +$25, NSFW +$40,
+        Addons: Additional Character(s) +$30 each, Complex background +$25,
         Clothing +$15
       </p>
       <b-img

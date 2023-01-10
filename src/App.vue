@@ -23,7 +23,6 @@
           </b-nav-item-dropdown>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
             <b-dropdown-item to="/sfwgallery">Gallery</b-dropdown-item>
-            <b-dropdown-item to="/nsfwgallery">18+ Gallery</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/#" disabled
               >Crafts! (Coming Soon!)</b-dropdown-item
@@ -102,8 +101,8 @@
         </b-thead>
         <b-tbody>
           <b-tr>
-            <b-th variant="success"
-              ><span id="artstatus">Art: Open!</span></b-th
+            <b-th variant="danger"
+              ><span id="artstatus">Art: Closed</span></b-th
             >
             <b-th variant="success"
               ><span id="craftstatus">Crafts: Open!</span></b-th

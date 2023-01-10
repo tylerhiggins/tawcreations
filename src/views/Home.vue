@@ -42,7 +42,6 @@
           <span class="pr-2">
             <b-button to="/sfwgallery">Gallery</b-button>
           </span>
-          <b-button to="/nsfwgallery">18+ Gallery</b-button>
         </b-carousel-slide>
         <b-carousel-slide
           :img-src="require('@/assets/home/ychslide.jpg')"
