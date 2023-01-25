@@ -101,8 +101,8 @@
         </b-thead>
         <b-tbody>
           <b-tr>
-            <b-th variant="danger"
-              ><span id="artstatus">Art: Closed</span></b-th
+            <b-th variant="success"
+              ><span id="artstatus">Art: Open</span></b-th
             >
             <b-th variant="danger"
               ><span id="craftstatus">Crafts: Closed</span></b-th
