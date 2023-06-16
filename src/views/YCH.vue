@@ -93,8 +93,7 @@ hr {
   border-color: white;
   border-width: 3px;
 }
-.ychimg {
-}
+
 #ychtable {
   color: white;
 }
