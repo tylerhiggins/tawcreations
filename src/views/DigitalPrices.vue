@@ -57,13 +57,13 @@
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Couples</span> - Starting at $80<br>
-      Includes two fullbody characters and a simple background.<br><br>
-      Addons: Additional Character(s) +$30 each, Complex background +$25, NSFW +$40,
+      <p><span>Couples/Multi-Character</span> - Starting at $80 for Couple +$30 each additional character<br>
+      Includes Fullbody characters and a simple background.<br><br>
+      Complex background +$25, NSFW +$40,
       Clothing +$35</p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/couples_ex.jpg')"
+        :src="require('@/assets/prices/couples_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
@@ -74,7 +74,7 @@
       </p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/feral_ex.jpg')"
+        :src="require('@/assets/prices/feral_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
@@ -88,9 +88,13 @@
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Lineart</span> - Starting at $20<br>
+      <p><span>Sketch/Lineart</span> - Sketch: $15 Lineart: $20<br>
       Includes one character of any type(headshot, halfbody, fullbody, etc.)<br><br>
       Addons: Additional Character(s) +$10 each, NSFW +$10</p>
+      <b-img
+        class="example"
+        :src="require('@/assets/prices/sketch_ex.png')"
+      ></b-img>
     </div>
     <div class="ex_section">
       <p><span>Icons</span> - Starting at $15<br>
@@ -99,7 +103,7 @@
         Complex Background: +$20</p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/icon_ex.jpg')"
+        :src="require('@/assets/prices/icon_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
