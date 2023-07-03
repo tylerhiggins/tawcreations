@@ -97,7 +97,7 @@
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Icons</span> - Starting at $15<br>
+      <p><span>Icons</span> - Starting at $30<br>
       Includes one character with a simple background and a high res version.<br><br>
       Addons: Additional Character(s): +$10 each (includes both separate and combined image),
         Complex Background: +$20</p>
