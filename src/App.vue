@@ -149,10 +149,6 @@
                 >Deviantart</a
               >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
               &ensp;&ensp;&ensp;&ensp;<a
-                href="https://twitter.com/wolfy_creations"
-                >Twitter</a
-              >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
-              &ensp;&ensp;&ensp;&ensp;<a
                 href="https://www.instagram.com/toxicangelwolfy/"
                 >Instagram</a
               >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
