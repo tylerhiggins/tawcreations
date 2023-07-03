@@ -165,7 +165,7 @@
         <b-row>
           <b-col>
             <div class="footer-copyright text-center py-2">
-              Copyright &copy;2020 Toxic Angel Wolfy Creations<br />
+              Copyright &copy;2023 Toxic Angel Wolfy Creations<br />
               <div class="text-center pt-lg-2">
                 <a
                   class="btn"
