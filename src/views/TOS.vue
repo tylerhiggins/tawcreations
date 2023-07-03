@@ -17,8 +17,8 @@
             for free after the work is complete.<br><br>
             I will provide updates of art progress (sketch, lineart, coloring) in DM's on your preferred platform (ex. Telegram, Facebook, Discord...). 
             I ask the commisioner to respond within 5 Days of providing an update for approval. If no approval or 
-            response is provided within 5 days, I will de-prioritize your commision with and work on other 
-            commissions/projects. <span>If no response after 2 weeks. I will assume approval on and begin the next step 
+            response is provided within 5 days, I will de-prioritize your commision and work on other 
+            commissions/projects. <span>If no response after 2 weeks. I will assume approval and begin the next step 
             or finalize your commission with no refund.</span> Disclaimer: Platform I will not use for updates 
             is Twitter. I do not have Twitter.<br><br>
             I <span>WILL NOT</span> draw anything that involves scat/poop, vomit, and/or any sexual
