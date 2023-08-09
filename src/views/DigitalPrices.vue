@@ -78,7 +78,7 @@
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Chibi</span> - Starting at $25<br>
+      <p><span>Chibi</span> - Starting at $35<br>
       Includes a simple background<br><br>
       Addons: Additional Character(s): +$15 each, Complex Background: +$25, NSFW +$10,
       Clothing +$10</p>
