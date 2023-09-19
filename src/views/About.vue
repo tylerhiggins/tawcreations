@@ -13,8 +13,8 @@
             Hello! My name is Toxic Angel Wolfy! I am a freelance artist and crafter
             specializing in artwork and crafts for the
             <a href="https://furscience.com/whats-a-furry/"> furry fandom!</a> I
-            currently live in Oregon, U.S. and recently got married 
-            on September 4th, 2023 to a wonderful husky who
+            currently live in Washington, U.S. and recently got married 
+            on September 4th, 2022 to a wonderful husky who
             is named Lucky! My hobbies and interests include exploring new places,
             drawing, and video gaming!<br /><br />My goal in life is to create a
             better world through art and helping others. I would like to thank you
