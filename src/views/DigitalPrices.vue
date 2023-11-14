@@ -119,7 +119,7 @@
       <p><font-awesome-icon id="tele" size="lg" :icon="['fab','telegram']"></font-awesome-icon>
         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span>Telegram Stickers</span> - $10 Each<br>
         Includes one character and any type (headshot, halfbody, fullbody, etc.)<br><br>
-        Addons: NSFW +$10</p>
+        Addons: NSFW +$10, Additional Character(s) +$10 each</p>
       <b-img
               class="example"
               :src="require('@/assets/prices/tele_sticker_ex.png')"
