@@ -8,11 +8,8 @@
             <font-awesome-icon icon="home" size="lg" />
           </b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
-            <b-dropdown-item style="color: black" to="/digitalprices"
-              >Digital</b-dropdown-item
-            >
-            <b-dropdown-item to="/traditionalprices"
-              >Traditional</b-dropdown-item
+            <b-dropdown-item style="color: black" to="/commissions"
+              >Commission Prices</b-dropdown-item
             >
             <b-dropdown-item to="/craftprices">Crafts</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>Fursuits (Coming Soon!)</b-dropdown-item>

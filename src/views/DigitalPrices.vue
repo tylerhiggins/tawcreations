@@ -16,7 +16,7 @@
       </b-alert>
     </b-container>
     <h1>Prices</h1>
-    <h3>Digital Artwork Prices:</h3>
+    <h3>Digital & Traditional Artwork Prices:</h3>
     <div class="ex_section">
       <p><span>Reference Sheet</span> - Starting at $50<br>
        Includes 3 poses, character bio, a simple background, character name,
@@ -130,7 +130,7 @@
 
 <script>
 export default {
-  name: "digitalprices",
+  name: "commissions",
   data() {
     return {
       dismissSecs: 10,
