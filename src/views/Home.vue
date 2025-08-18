@@ -59,15 +59,6 @@
         </b-carousel-slide>
       </b-carousel>
       </b-row>
-      <b-row class="mt-lg-5 mb-md-2" id="discord">
-        <b-col><h1 class="text-center font-weight-bold mb-md-4">Reviews and Discord Server</h1></b-col>
-        <widgetbot
-                server="657054643699843095"
-                channel="735532848454303775"
-                width="1280"
-                height="500"
-        ></widgetbot>
-      </b-row>
     </b-container>
   </div>
 </template>
