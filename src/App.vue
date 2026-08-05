@@ -33,6 +33,7 @@
             <b-dropdown-item to="/tos">Terms of Service(TOS)</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item to="/store">Store</b-nav-item>
+          <b-nav-item href="https://wishlist.tawcreations.net/wishlist/2bebd7fcfcd848d926bf2234d21f442885dae74c">Wishlist</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
