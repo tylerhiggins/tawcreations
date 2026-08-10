@@ -1,0 +1,6 @@
+[providers.node]
+# Tells Nixpacks to bundle python3 alongside node during setup
+pkgs = ["nodejs_18", "python3"]
+
+[phases.install]
+cmds = ["npm install --legacy-peer-deps"]
