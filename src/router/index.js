@@ -27,16 +27,10 @@ const routes = [
     meta: { title: "TAWCreations - TOS" }
   },
   {
-    path: "/digitalprices",
-    name: "digitalprices",
+    path: "/commissions",
+    name: "commissions",
     component: () => import("../views/DigitalPrices.vue"),
     meta: { title: "TAWCreations - Prices" }
-  },
-  {
-    path: "/traditionalprices",
-    name: "traditionalprices",
-    component: () => import("../views/TraditionalPrices.vue"),
-    meta: { title: "TAWCreations - Traditional Prices" }
   },
   {
     path: "/sfwgallery",

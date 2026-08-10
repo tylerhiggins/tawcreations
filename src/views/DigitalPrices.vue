@@ -16,7 +16,7 @@
       </b-alert>
     </b-container>
     <h1>Prices</h1>
-    <h3>Digital Artwork Prices:</h3>
+    <h3>Digital & Traditional Artwork Prices:</h3>
     <div class="ex_section">
       <p><span>Reference Sheet</span> - Starting at $50<br>
        Includes 3 poses, character bio, a simple background, character name,
@@ -57,13 +57,13 @@
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Couples</span> - Starting at $80<br>
-      Includes two fullbody characters and a simple background.<br><br>
-      Addons: Additional Character(s) +$30 each, Complex background +$25, NSFW +$40,
+      <p><span>Couples/Multi-Character</span> - Starting at $80 for Couple +$30 each additional character<br>
+      Includes Fullbody characters and a simple background.<br><br>
+      Complex background +$25, NSFW +$40,
       Clothing +$35</p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/couples_ex.jpg')"
+        :src="require('@/assets/prices/couples_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
@@ -74,11 +74,11 @@
       </p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/feral_ex.jpg')"
+        :src="require('@/assets/prices/feral_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Chibi</span> - Starting at $25<br>
+      <p><span>Chibi</span> - Starting at $35<br>
       Includes a simple background<br><br>
       Addons: Additional Character(s): +$15 each, Complex Background: +$25, NSFW +$10,
       Clothing +$10</p>
@@ -88,18 +88,22 @@
       ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Lineart</span> - Starting at $20<br>
+      <p><span>Sketch/Lineart</span> - Sketch: $15 Lineart: $20<br>
       Includes one character of any type(headshot, halfbody, fullbody, etc.)<br><br>
       Addons: Additional Character(s) +$10 each, NSFW +$10</p>
+      <b-img
+        class="example"
+        :src="require('@/assets/prices/sketch_ex.png')"
+      ></b-img>
     </div>
     <div class="ex_section">
-      <p><span>Icons</span> - Starting at $15<br>
+      <p><span>Icons</span> - Starting at $30<br>
       Includes one character with a simple background and a high res version.<br><br>
       Addons: Additional Character(s): +$10 each (includes both separate and combined image),
         Complex Background: +$20</p>
       <b-img
         class="example"
-        :src="require('@/assets/prices/icon_ex.jpg')"
+        :src="require('@/assets/prices/icon_ex.png')"
       ></b-img>
     </div>
     <div class="ex_section">
@@ -115,7 +119,7 @@
       <p><font-awesome-icon id="tele" size="lg" :icon="['fab','telegram']"></font-awesome-icon>
         &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span>Telegram Stickers</span> - $10 Each<br>
         Includes one character and any type (headshot, halfbody, fullbody, etc.)<br><br>
-        Addons: NSFW +$10</p>
+        Addons: NSFW +$10, Additional Character(s) +$10 each</p>
       <b-img
               class="example"
               :src="require('@/assets/prices/tele_sticker_ex.png')"
@@ -126,7 +130,7 @@
 
 <script>
 export default {
-  name: "digitalprices",
+  name: "commissions",
   data() {
     return {
       dismissSecs: 10,
