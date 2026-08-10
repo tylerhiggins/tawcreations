@@ -8,11 +8,8 @@
             <font-awesome-icon icon="home" size="lg" />
           </b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
-            <b-dropdown-item style="color: black" to="/digitalprices"
-              >Digital</b-dropdown-item
-            >
-            <b-dropdown-item to="/traditionalprices"
-              >Traditional</b-dropdown-item
+            <b-dropdown-item style="color: black" to="/commissions"
+              >Commission Prices</b-dropdown-item
             >
             <b-dropdown-item to="/craftprices">Crafts</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>Fursuits (Coming Soon!)</b-dropdown-item>
@@ -23,7 +20,6 @@
           </b-nav-item-dropdown>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
             <b-dropdown-item to="/sfwgallery">Gallery</b-dropdown-item>
-            <b-dropdown-item to="/nsfwgallery">18+ Gallery</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/#" disabled
               >Crafts! (Coming Soon!)</b-dropdown-item
@@ -37,6 +33,7 @@
             <b-dropdown-item to="/tos">Terms of Service(TOS)</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item to="/store">Store</b-nav-item>
+          <b-nav-item href="https://wishlist.tawcreations.net/wishlist/2bebd7fcfcd848d926bf2234d21f442885dae74c">Wishlist</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
@@ -102,11 +99,11 @@
         </b-thead>
         <b-tbody>
           <b-tr>
-            <b-th variant="success"
-              ><span id="artstatus">Art: Open!</span></b-th
+            <b-th variant="danger"
+              ><span id="artstatus">Art: Closed</span></b-th
             >
-            <b-th variant="success"
-              ><span id="craftstatus">Crafts: Open!</span></b-th
+            <b-th variant="danger"
+              ><span id="craftstatus">Crafts: Closed</span></b-th
             >
             <b-th variant="danger"
               ><span id="fsstatus">Fursuits: Closed</span></b-th
@@ -122,7 +119,7 @@
           <b-col>
             <div class="mobileLinks kofiLink text-center">
               <a href="https://ko-fi.com/toxicangelwolfycreations">
-                Buy me a coffee!
+                Buy me a KoFi!
                 <font-awesome-icon size="lg" icon="coffee" />
               </a>
             </div>
@@ -150,10 +147,6 @@
                 >Deviantart</a
               >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
               &ensp;&ensp;&ensp;&ensp;<a
-                href="https://twitter.com/wolfy_creations"
-                >Twitter</a
-              >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
-              &ensp;&ensp;&ensp;&ensp;<a
                 href="https://www.instagram.com/toxicangelwolfy/"
                 >Instagram</a
               >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
@@ -170,7 +163,7 @@
         <b-row>
           <b-col>
             <div class="footer-copyright text-center py-2">
-              Copyright &copy;2020 Toxic Angel Wolfy Creations<br />
+              Copyright &copy;2023 Toxic Angel Wolfy Creations<br />
               <div class="text-center pt-lg-2">
                 <a
                   class="btn"

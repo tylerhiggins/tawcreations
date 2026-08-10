@@ -34,23 +34,6 @@
           </form>
 
         </b-col>
-        <b-col>
-          <h4 class="adopt-desc">Mystery Egg Adopts! (Only 1 Left!): $5</h4>
-          <b-img
-              class="adopt-img"
-              :src="require('@/assets/adopts/eggadopts.png')"
-              style="max-width: 75%"
-              fluid
-          ></b-img>
-          <p>
-            Choose an egg and you will receive a mystery character reference
-            sheet based on the egg color!<br />
-            Price is $5 per egg, or egg with head shot commission for $15!
-          </p>
-          <b-button href="https://www.furaffinity.net/view/34595548/"
-          >Claim Here! (FA Notes)</b-button
-          >
-        </b-col>
       </b-row>
     </b-container>
   </div>
