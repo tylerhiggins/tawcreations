@@ -4,7 +4,7 @@
       <confirmation :coming-from="'gallery'"></confirmation>
     </div>
     <div id="confirmed" v-if="ofAge">
-      <h1 id="title">18+ Gallery</h1>
+      <h1 id="title">18+ Examples of my Work</h1>
       <div id="jumplinks">
         <span style="font-weight: bold">Jump to:</span><br /><a href="#fullbody"
       >Full Body</a

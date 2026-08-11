@@ -1,96 +1,83 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-
-Vue.use(VueRouter);
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: "/",
-    name: "home",
+    path: '/',
+    name: 'Home',
     component: Home
   },
   {
-    path: "/about",
-    name: "about",
+    path: '/about',
+    name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
-    meta: { title: "TAWCreations - About" }
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: "/TOS",
-    name: "tos",
-    component: () => import("../views/TOS.vue"),
-    meta: { title: "TAWCreations - TOS" }
+    path: '/adopts',
+    name: 'Adopts',
+    component: () => import('../views/Adopts.vue')
   },
   {
-    path: "/commissions",
-    name: "commissions",
-    component: () => import("../views/DigitalPrices.vue"),
-    meta: { title: "TAWCreations - Prices" }
+    path: '/ych',
+    name: 'YCH',
+    component: () => import('../views/YCH.vue')
   },
   {
-    path: "/sfwgallery",
-    name: "sfwgallery",
-    component: () => import("../views/SafeGallery.vue"),
-    meta: { title: "TAWCreations - Gallery" }
+    path: '/nsfwych',
+    name: 'NSFWYCH',
+    component: () => import('../views/NSFWYCH.vue')
   },
   {
-    path: "/adopts",
-    name: "adopts",
-    component: () => import("../views/Adopts.vue"),
-    meta: { title: "TAWCreations - Adopts" }
+    path: '/digitalprices',
+    name: 'DigitalPrices',
+    component: () => import('../views/DigitalPrices.vue')
   },
   {
-    path: "/ych",
-    name: "ych",
-    component: () => import("../views/YCH.vue"),
-    meta: { title: "TAWCreations - YCH" }
+    path: '/craftprices',
+    name: 'CraftPrices',
+    component: () => import('../views/CraftPrices.vue')
   },
   {
-    path: "/nsfwgallery",
-    name: "nsfwGallery",
-    component: () => import("../views/NSFWGallery.vue"),
-    meta: { title: "TAWCreations - 18+ Gallery" }
+    path: '/safegallery',
+    name: 'SafeGallery',
+    component: () => import('../views/SafeGallery.vue')
   },
   {
-    path: "/nsfwych",
-    name: "nsfwych",
-    component: () => import("../views/NSFWYCH.vue"),
-    meta: { title: "TAWCreations - 18+ YCH" }
+    path: '/NSFWGallery',
+    name: 'NSFWGallery',
+    component: () => import('../views/NSFWGallery.vue')
   },
   {
-    path: "/store",
-    name: "store",
-    component: () => import("../views/Merch.vue"),
-    meta: { title: "TAWCreations - Store" }
+    path: '/tos',
+    name: 'TOS',
+    component: () => import('../views/TOS.vue')
   },
   {
-    path: "/craftprices",
-    name: "craftprices",
-    component: () => import("../views/CraftPrices.vue"),
-    meta: { title: "TAWCreations - Craft Prices"}
+    path: '/merch',
+    name: 'Merch',
+    component: () => import('../views/Merch.vue')
   },
   {
-    path: "/orderconfirm",
-    name: "orderconfirm",
-    component: () => import("../views/OrderConfirm.vue"),
-    meta: { title: "TAWCreations - Order Placed Confirmation"}
+    path: '/orderconfirm',
+    name: 'OrderConfirm',
+    component: () => import('../views/OrderConfirm.vue')
   },
+  // Vue Router 4 Catch-All Route for 404s (Replaces path: '*')
   {
-    path: "*",
-    component: () => import("../views/PageNotFound.vue"),
-    meta: { title: "TAWCreations - 404" }
+    path: '/:pathMatch(.*)*',
+    name: '/PageNotFound',
+    component: () => import('../views/PageNotFound.vue')
   }
-];
+]
 
-const router = new VueRouter({
-  mode: "history",
-  base: process.env.BASE_URL,
+const router = createRouter({
+  // Replaces mode: 'history' and base: process.env.BASE_URL
+  history: createWebHistory(process.env.BASE_URL),
   routes
-});
+})
 
-export default router;
+export default router
+

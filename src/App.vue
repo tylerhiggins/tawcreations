@@ -8,9 +8,8 @@
             <font-awesome-icon icon="home" size="lg" />
           </b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
-            <b-dropdown-item style="color: black" to="/commissions"
-              >Commission Prices</b-dropdown-item
-            >
+            <b-dropdown-item style="color: black" to="/DigitalPrices"
+              >Commission Prices</b-dropdown-item>
             <b-dropdown-item to="/craftprices">Crafts</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>Fursuits (Coming Soon!)</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
@@ -19,7 +18,8 @@
             <b-dropdown-item to="/nsfwych">18+ YCH</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item-dropdown class="nav_drop" text="Galleries">
-            <b-dropdown-item to="/sfwgallery">Gallery</b-dropdown-item>
+            <b-dropdown-item to="/Safegallery">Examples of my Work</b-dropdown-item>
+            <b-dropdown-item to="/NSFWgallery">18+ Examples of my Work</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/#" disabled
               >Crafts! (Coming Soon!)</b-dropdown-item

@@ -1,6 +1,6 @@
 <template>
   <div class="sfwgallery">
-    <h1 id="sfwtitle">My Gallery</h1>
+    <h1 id="sfwtitle">Examples of my Work</h1>
     <div id="jumplinks">
       <span style="font-weight: bold">Jump to:</span><br /><a href="#refsheets"
         >Reference Sheets</a
