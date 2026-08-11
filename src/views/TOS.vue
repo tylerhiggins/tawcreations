@@ -26,7 +26,7 @@
               <li>Twitter</li>
             </ul>
             I <span>WILL NOT</span> draw anything that involves excrement or emesis.<br><br>
-            I <span>WILL NOT</span> draw anything that involves a sexual depiction of a minor (cub art).<br><br>
+            I <span>WILL NOT</span> draw anything that involves sexual depiction of a minor (cub art).<br><br>
             I <span>WILL NOT</span> to draw any feral art in any sexual manner.<br><br>
             I <span>REFUSE</span> to draw anything that discriminates against someones race,
             sexual orientation, and/or gender identity.<br><br>

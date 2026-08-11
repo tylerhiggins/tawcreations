@@ -136,7 +136,11 @@
         <b-row>
           <b-col>
             <div class="mobileLinks footerInfo text-center py-1">
-              <a href="https://www.furaffinity.net/user/toxicangelwolfy"
+              <a href="https://www.facebook.com/ToxicAngelWolfyCreations/">
+                Facebook
+              </a
+              >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
+              &ensp;&ensp;&ensp;&ensp;<a href="https://www.furaffinity.net/user/toxicangelwolfy"
                 >Furaffinity</a
               >&ensp;&ensp;&ensp;&ensp;<span class="splitter">|</span>
               &ensp;&ensp;&ensp;&ensp;<a
