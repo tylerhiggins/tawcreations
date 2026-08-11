@@ -9,8 +9,7 @@
           </b-nav-item>
           <b-nav-item-dropdown class="nav_drop" text="Prices">
             <b-dropdown-item style="color: black" to="/DigitalPrices"
-              >Commission Prices</b-dropdown-item
-            >
+              >Commission Prices</b-dropdown-item>
             <b-dropdown-item to="/craftprices">Crafts</b-dropdown-item>
             <b-dropdown-item to="/#" disabled>Fursuits (Coming Soon!)</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
@@ -38,6 +37,9 @@
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
+            <b-nav-item style="padding-right: 10px" href="https://www.facebook.com/ToxicAngelWolfyCreations/">
+              <font-awesome-icon :icon="['fab', 'facebook']" />
+            </b-nav-item>
             <b-nav-item
               style="padding-right: 10px"
               href="https://discord.gg/gzm29Nr"

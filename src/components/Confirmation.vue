@@ -63,7 +63,7 @@ export default {
         localStorage.setItem("confirm", JSON.stringify(newConfirm));
       }
       if (this.comingFrom === "gallery") {
-        this.$router.push("sfwgallery");
+        this.$router.push("SafeGallery");
       } else if (this.comingFrom === "ych") {
         this.$router.push("ych");
       } else if (this.comingFrom === "prices") {

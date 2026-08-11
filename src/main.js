@@ -16,7 +16,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 // 2. Import Brand Icons individually
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faDeviantart } from '@fortawesome/free-brands-svg-icons'
 import { faTrello } from '@fortawesome/free-brands-svg-icons'
 import {faBootstrap} from '@fortawesome/free-brands-svg-icons'
@@ -30,7 +30,7 @@ library.add(
   faPaw,
   faCoffee,
   faDiscord,
-  faInstagram,
+  faFacebook,
   faDeviantart,
   faTrello,
   faHome,
