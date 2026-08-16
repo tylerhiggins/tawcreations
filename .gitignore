@@ -4,6 +4,7 @@ node_modules
 /src/assets
 Dockerfile
 .dockerignore
+nginx.conf
 
 # local env files
 .env.local
