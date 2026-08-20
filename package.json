@@ -16,7 +16,7 @@
     "@vue/compat": "^3.5.41",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.10.0",
-    "serialize-javascript": "^4.0.0",
+    "serialize-javascript": "^7.0.5",
     "vue": "^3.5.41",
     "vue-router": "^4.6.4",
     "vuex": "^4.1.0"
