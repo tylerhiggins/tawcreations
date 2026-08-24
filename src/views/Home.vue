@@ -29,18 +29,15 @@
         <b-carousel-slide
           :img-src="require('@/assets/home/discord.jpg')"
           >
-          <span class="pr-2">
-          <b-button class="discordbtn" href="#discord">Read My Reviews!</b-button>
-          </span>
           <b-button class="discordbtn" href="https://discord.gg/tGejHWc">Join Server</b-button>
 
         </b-carousel-slide>
         <b-carousel-slide
           :img-src="require('@/assets/home/slide2.jpg')"
-          caption="Check out my Gallery!"
+          caption="Check out some examples of my work!"
         >
           <span class="pr-2">
-            <b-button to="/safegallery">Gallery</b-button>
+            <b-button to="/safegallery">Click here!</b-button>
           </span>
         </b-carousel-slide>
         <b-carousel-slide
