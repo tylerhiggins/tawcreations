@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="md" type="dark" variant="dark">
+    <b-navbar toggleable="md" type="dark">
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
@@ -192,10 +192,20 @@ export default {
 
 <style lang="scss">
 #app {
+  position: relative;
+  min-height: 100vh;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background-color: black;
+  background-image:
+    linear-gradient(rgba(0,0,0, 0.55), rgba(0,0,0, 0.55)),
+    url("@/assets/backgrounds/bg1.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #footer {
   font-size: 12px;
@@ -211,9 +221,6 @@ a:active {
 .nav_drop a {
   color: black;
 }
-body {
-  background-color: black;
-}
 .footerInfo {
   font-size: 16px;
 }
@@ -225,17 +232,16 @@ body {
   font-size: 16px;
   margin-top: 20px;
 }
+#statustable {
+  background-color: transparent;
+}
 .status {
   text-align: center;
-  background-color: black;
 }
 #cstatustitle {
   text-decoration: underline;
   font-weight: bold;
   font-size: 20px;
-}
-#statustable {
-  background-color: black;
 }
 .extraLinks {
   margin-top: 20px;

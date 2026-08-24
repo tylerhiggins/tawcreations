@@ -1,7 +1,7 @@
 <template>
   <div class="confirmation text-center">
     <b-container>
-      <b-card class="bg-dark text-center" v-if="!noYCH">
+      <b-card class="bg-transparent text-center" v-if="!noYCH">
         <b-card-header>
           <h1>Are you 18 or older?</h1>
         </b-card-header>

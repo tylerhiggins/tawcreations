@@ -4,7 +4,7 @@
     <b-container id="adopt-table">
       <b-row>
         <b-col align="center">
-          <h4 class="adopt-desc">Custom Adopts: Starting at $40</h4>
+          <h4 class="adopt-desc">Custom Adopts: Starting at $50</h4>
           <b-img
             class="adopt-img"
             :src="require('@/assets/adopts/custom_ex.jpg')"

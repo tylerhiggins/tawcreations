@@ -70,7 +70,8 @@
       <p><span>Feral</span> - Starting at $40<br>
       Includes a simple background.<br><br>
         Addons: Additional Character(s) +$30 each, Complex background +$25,
-        Clothing +$15
+        Clothing +$15<br>
+        <span style="font-weight: bold; text-decoration: none">Note: I will not draw any feral NSFW artwork.</span>
       </p>
       <b-img
         class="example"
